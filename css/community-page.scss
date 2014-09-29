@@ -1,0 +1,184 @@
+/*******************************\
+        #COMMUNITY PAGE
+\*******************************/
+
+
+/****************HEADER ROW*******************/
+$community-blue: #00baff;
+
+.community-blue {
+  color: $community-blue;
+}
+
+.community-content {
+position: relative;
+}
+
+.community-head-sec {
+  border-bottom: 5px solid #f0f0f0;
+  box-sizing: border-box;
+}
+
+.community-header {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.community-subheader {
+  color: #ababab;
+  font-family: AllerLight;
+  font-size: 20px;
+  margin-top: -8px;
+  position: relative;
+  &:after {
+    content: '';
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    background-color: #e7e7e7;
+  }
+}
+
+.community-subheader-small {
+  color: #626262;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.community-heart {
+  position: relative;
+  left: -49px;
+  top: -10px;
+}
+
+.community-list-header {
+  font-size: 21px;
+}
+
+.community-list {
+  padding: 0;
+  li {
+    list-style: none;
+    background-image: url("../images/community-page/checkbox.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+    color: #97a2ad;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: AllerLight;
+    padding: 0 0 0 30px;
+  }
+}
+/****************HEADER ROW END*******************/
+
+/*********************Community Features**********/
+.community-features {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 5px solid #f0f0f0;
+}
+
+.community-feature-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.feature-image {
+  margin-bottom: 10px;
+}
+
+.community-feature-descr {
+  padding: 0 15px;
+  font-family: AllerLight;
+  margin-bottom: 15px;
+}
+
+.community-feature-button {
+  width: 117px;
+  height: 29px;
+  padding: 7px 13px;
+  border-radius: 4px;
+  background-color:  #00c6ff;
+  color: #fff;
+  margin-left: 42px;
+  &:hover {
+    color:  darken(#00c6ff, 10%);
+  }
+}
+
+/**************************WITH SIGNAL********************/
+
+.with-signal-header {
+  color:#ffb300;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+
+.with-signal-subheader {
+  color: #626262;
+  font-size: 20px;
+}
+
+.with-signal-list {
+  list-style: none;
+  padding: 0;
+  li {
+    height: 150px;
+    padding:35px 0 0 170px;
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 13px;
+    color:#626262;
+    a {
+      font-weight: bold;
+    }
+    img {
+      position: absolute;
+      left: 0;
+      top: 10px;
+
+    }
+
+    &.signal-good, &.signal-better {
+      position: relative;
+      &:after {
+        content: '';
+        height: 1px;
+        position: absolute;
+        background-color: #e3e3e3;
+        bottom: -18px;
+        left: 165px;
+        width: 280px;
+      }
+    }
+  }
+}
+
+.with-signal-laurene {
+  margin-left: 44px;
+  margin-top: -79px;
+}
+
+/***************************GET SKINNY************/
+.get-skinny-header {
+  font-weight: bold;
+  color:  #ffb400;
+  font-size: 31px;
+}
+
+.get-skinny-real-food {
+  margin-left: 20px;
+}
+
+.get-skinny-text {
+  padding: 0 35px;
+  color:  #626262;
+  font-size: 19px;
+  margin-top: 15px;
+  opacity: .8;
+}

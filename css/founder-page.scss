@@ -1,0 +1,125 @@
+/******************************\
+        #FOUNDER PAGE
+\******************************/
+
+.founder-content {
+  position: relative;
+}
+
+.founder-photo {
+  margin-left: -10px;
+}
+
+.founder-photo-descr {
+  font-style: italic;
+}
+
+.founder-header {
+  font-family: AllerLight;
+  color: #ababab;
+}
+.founder-text {
+  font-size: 13px;
+  opacity: .8;
+  margin-bottom: 20px;
+}
+
+.founder-text-second-row {
+  margin-top: 20px;
+}
+
+.founder-janette-pic {
+  margin-left: -20px;
+  margin-top: -13px;
+}
+
+.janette-quote {
+  width: 582px;
+  height: 153px;
+  background-color: #fafafa;
+  background: -webkit-linear-gradient(90deg, #f1f1f1 0%, #ffffff 100%);
+  background: -moz-linear-gradient(90deg, #f1f1f1 0%, #ffffff 100%);
+  background: -o-linear-gradient(90deg, #f1f1f1 0%, #ffffff 100%);
+  background: -ms-linear-gradient(90deg, #f1f1f1 0%, #ffffff 100%);
+  background: linear-gradient(0deg, #f1f1f1 0%, #ffffff 100%);
+  box-shadow: 1px 2px 3px 0.00px rgba(35, 32, 33, 0.25);
+  border: 1px solid #d1d1d1;
+  border-radius: 7px;
+  position: relative;
+  padding: 25px 70px;
+}
+
+.janette-quote-text {
+  position: relative;
+  font-size: 19px;
+  text-align: center;
+  font-style: italic;
+  opacity: .8;
+  &:before {
+    content: '';
+    width: 35px;
+    height: 27px;
+    position: absolute;
+    left: -40px;
+    background-image: url("../images/sign-big.png");
+  }
+  &:after {
+    content: '';
+    width: 35px;
+    height: 27px;
+    position: absolute;
+    right: 60px;
+    background-image: url("../images/sign-big.png");
+    transform: rotate(180deg);
+  }
+}
+
+.janette-quote-author {
+  text-align: right;
+  margin-right: -40px;
+  margin-top: -20px;
+  font-family: AllerLight;
+  b {
+    color: #ff9200;
+    font-family: Aller;
+  }
+}
+
+.join-now {
+  width: 100%;
+  height: 286px;
+  margin-top: 50px;
+  background-image: url("../images/founder-page/join-today-box.png");
+  padding: 60px 50px;
+  color: #fff;
+  font-family: AllerLight;
+  font-size: 13px;
+  line-height: 20px;
+
+  b {
+    font-family: Aller;
+  }
+}
+
+.join-now-header {
+  margin-top: 0;
+  position: relative;
+  &:before {
+    content: '';
+    width: 70px;
+    height: 1px;
+    position: absolute;
+    left: 40px;
+    top: 13px;
+    background-color: #fff;
+  }
+  &:after {
+    content: '';
+    width: 70px;
+    height: 1px;
+    position: absolute;
+    right: 40px;
+    top: 13px;
+    background-color: #fff;
+  }
+}

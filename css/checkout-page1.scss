@@ -1,0 +1,145 @@
+.checkout-content {
+  position: relative;
+}
+
+.step1 {
+  color: #ababab;
+  min-height: 800px;
+  background-image: url("../images/checkout/step1/bg.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.step1-header {
+  font-weight: bold;
+  margin: 30px 0 20px 0;
+  font-size: 40px;
+  b {
+    font-family: Harbell;
+    font-weight: normal;
+    font-size: 45px;
+  }
+
+  &:before {
+    content: '';
+    width: 87px;
+    height: 1px;
+    position: absolute;
+    background-color: #dfdfdf;
+    top: 65px;
+    left: 0;
+  }
+
+}
+
+.step1-subheader {
+  font-family: AllerLight;
+  opacity: .7;
+  margin-top: 30px;
+}
+
+.steps-list {
+  padding: 0;
+  list-style: none;
+  width: 350px;
+  margin-top: 20px;
+  li {
+    padding-left:100px;
+    height: 80px;
+    position: relative;
+  }
+}
+
+.steps-list-1 {
+  background-image: url("../images/checkout/step1/1.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-top: 20px;
+
+  &:after {
+    content: '';
+    width: 87px;
+    height: 1px;
+    position: absolute;
+    background-color: #dfdfdf;
+    bottom: 0;
+    left: 100px;
+  }
+}
+
+.steps-list-2 {
+  background-image: url("../images/checkout/step1/2.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-top: 30px;
+
+  &:after {
+    content: '';
+    width: 87px;
+    height: 1px;
+    position: absolute;
+    background-color: #dfdfdf;
+    bottom: 0;
+    left: 100px;
+  }
+}
+
+.steps-list-3 {
+  background-image: url("../images/checkout/step1/3.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-top: 10px;
+}
+
+.step1-small-text {
+  margin-top: 200px;
+  font-family: AllerLight;
+
+  p {
+    margin: 0;
+  }
+}
+
+.order-form {
+  width: 315px;
+  height: 740px;
+  box-shadow: 1px 2px 3px 0.00px rgba(35, 32, 33, 0.25);
+  border: 1px solid #dcdcdc;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  padding: 25px 10px;
+
+  .logo {
+    position: relative;
+    top: -10px;
+    left: 68px;
+  }
+}
+
+.order-form-header {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.order-input-form {
+
+  input {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 12px;
+    &.short {
+      width: 48%;
+      display: inline-block;
+    }
+  }
+}
+
+.order-form-submit {
+  width: 266px;
+  height: 67px;
+  border: none;
+  background-image: url("../images/checkout/step1/free-trial.png");
+  background-color: #fff;
+  margin:10px 0 0 15px;
+}

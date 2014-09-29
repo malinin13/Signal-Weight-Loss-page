@@ -1,0 +1,132 @@
+.step2 {
+  position: relative;
+  background-image: url("../images/checkout/step2/pills.png");
+  background-repeat: no-repeat;
+  background-position: 19px 40px;
+  padding: 27px 0 0 200px;
+
+  height: 690px;
+}
+
+.order-form {
+    &.second {
+      top:30px;
+      height: 622px;
+      
+      .order-form-submit {
+        background-image: url("../images/checkout/step2/order-now.png");
+      }
+    }
+}
+
+.cart {
+  width: 389px;
+
+  .community-list {
+    margin-left: 10px;
+  }
+}
+
+.cart-header {
+  background-color: #00baff;
+  height: 55px;
+  margin: 0;
+
+  padding-top: 18px;
+  font-size: 20px;
+
+  color: #fff;
+  position: relative;
+
+  margin-bottom: 15px;
+  &:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 19px 0 21px;
+    border-color: #00baff transparent transparent transparent;
+    position: absolute;
+    bottom: -18px;
+    left: 175px
+  }
+}
+body .table>thead>tr>th {
+  border-bottom: 5px solid #ddd;
+}
+
+table {
+  color: #919191;
+}
+.table-item {
+  width: 225px;
+}
+
+.item-name {
+  font-size: 22px;
+  font-family: AllerLight;
+  line-height: 21px!important;
+  font-style: italic;
+  padding-bottom: 15px!important;
+  b {
+    font-style: normal;
+  }
+}
+
+.free-trial {
+  color: red;
+  font-weight: bold;
+}
+
+tbody {
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 10px;
+}
+
+.instant-header {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-top: -5px;
+}
+
+.subtotal {
+  background-color: #00baff;
+  height: 55px;
+  margin: 0 0 3px 0;
+  padding: 18px 30px 15px 25px;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: AllerLight;
+
+}
+
+.line-through {
+  position: relative;
+  &:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 2px solid;
+    border-color: inherit;
+    transform:rotate(-20deg);
+  }
+}
+
+.take-back {
+  font-weight: bold;
+
+  &:hover {
+    color: #00baff!important;
+  }
+  b {
+    text-decoration: underline;
+  }
+}
+
+.order-input-form {
+  .small {
+    padding: 0 20px;
+  }
+}

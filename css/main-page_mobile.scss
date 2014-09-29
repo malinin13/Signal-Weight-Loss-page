@@ -1,0 +1,287 @@
+/*******************************\
+        #MAIN PAGE_mobile
+\*******************************/
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    @import "header-mobile";
+    .banner {
+      position: relative;
+      margin-bottom: 3px;
+      img {
+        width: 100%;
+        margin-top: -30px;
+      }
+
+      .try-it {
+        position: absolute;
+        width: 140px;
+        left: 133px;
+        bottom: 18px;
+      }
+
+      .guarantee {
+        position: absolute;
+        font-family: 'Myriad Pro';
+        color:  #ffffff;
+        font-size: 9px;
+        text-shadow: 1px 2px 3px rgba(35, 33, 33, 0.44);
+        bottom: -8px;
+        left: 133px;
+      }
+    }
+
+    .panel {
+      border-right:none;
+      border-left: none;
+      border-bottom: none;
+      .panel-heading {
+        padding: 15px;
+        background-color: $blue;
+        border: 1px solid $border-blue;
+        border-radius: 0;
+        color: #FFF;
+        i {
+          margin-right: 22px;
+        }
+      }
+
+      .panel-body {
+        padding-left:0;
+        padding-right: 0;
+      }
+/**********************FIRST PANEl***************/
+      .col-xs-12 {
+        padding: 10px 0 10px;
+        border-top: 1px solid #dcdcdc;
+        .col-xs-7 {
+          padding: 12px 0 0;
+          position: absolute;
+          left: 125px;
+          top: 0;
+        }
+
+        img {
+          width: 100px;
+          margin-left: 10px;
+        }
+      }
+
+    }
+
+    .overeating {
+      background-color: #fdf0dd;
+      margin-top: 20px;
+      h4 {
+        color: #fa9a04;
+      }
+    }
+
+    .hunger {
+      background-color:#e0f4ff;
+      h4 {
+        color: #05a9f2;
+      }
+    }
+
+    .learning {
+      background-color:#e3f7d2;
+      h4 {
+        color: #7c7c7c;
+      }
+    }
+
+    .losing {
+      background-color:#faccfe;
+      border-bottom: 1px solid #dcdcdc;
+      h4 {
+        color: #e700fc;
+      }
+    }
+
+    .stop {
+      color: #f40733;
+      text-decoration: underline;
+    }
+
+    .start {
+     color:#70c008;
+      text-decoration: underline;
+    }
+
+    .loseIt {
+      width: 300px;
+      height: 120px;
+      position: relative;
+      left: 10px;
+      top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .try-it-section {
+      width: 100%;
+      height: 70px;
+      background: url("../images/mobile/arrow-try-it.png") no-repeat;
+      background-size: 100%;
+      background-position: 20px 0;
+      position: relative;
+
+      h4 {
+        color: #fff;
+        position: absolute;
+        left: 42px;
+        top: 12px;
+      }
+
+      .try-it {
+        width: 140px;
+        left: 165px;
+        top: 15px;
+        position: absolute;
+      }
+    }
+
+    /*************SECOND PANEL********************/
+    .whatsIn {
+      img {
+        width: 100%;
+        &.ingridients-3 {
+          width: 95%;
+          margin-left: 15px;
+        }
+        &.no-img {
+          width: 90%;
+          margin:10px 0 0 15px;
+        }
+      }
+
+      .stop-waiting {
+        margin-top: 50px;
+        height: 30px;
+        .try-it {
+          top: -5px;
+        }
+      }
+    }
+
+    /*******************THIRD SECTION************/
+    .story-photos {
+      img {
+        width: 100%;
+
+      }
+      z-index: 2;
+      position: relative;
+    }
+
+    .story-text {
+      background-color: #025a85;
+      color: #fff;
+      font-style: italic;
+      padding: 60px 40px 40px;
+      position: relative;
+      top: -55px;
+      z-index: 0;
+      box-sizing: border-box;
+
+      .name {
+        margin-top: 15px;
+        font-style: normal;
+        font-size: 12px;
+      }
+    }
+
+    .laurine, .jeanette {
+      margin-top: -45px
+    }
+
+    .stop-waiting {
+      position: relative;
+      width: 100%;
+      height: 120px;
+      margin-top: -30px;
+      .stop-text {
+        margin-bottom: 30px;
+      }
+
+      .try-it {
+        position: absolute;
+        left: 90px;
+        top: 80px;
+        width: 140px;
+      }
+    }
+  }/*****BODY****/
+
+}/******MEDIA 320px*******/
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+  body {
+
+    h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+      margin: 0!important;
+    }
+
+    .banner {
+      .try-it {
+        bottom: 30px;
+        left: 250px;
+        width: 180px;
+      }
+
+      .guarantee {
+        bottom: -2px;
+        left: 250px;
+        font-size: 11px;
+      }
+    }
+
+    .panel {
+      .col-xs-12 {
+        .col-xs-7 {
+          top: 20px;
+        }
+      }
+    }
+
+    .loseIt {
+      width: 350px;
+      margin-left: 60px;
+    }
+
+    .how-it-works {
+      .try-it-section {
+        h4 {
+          left: 70px;
+          font-size: 24px;
+        }
+        .try-it {
+          top: 18px;
+          left: 265px;
+          width: 170px;
+        }
+      }
+    }
+
+    .whatsIn {
+     .stop-waiting {
+       .try-it {
+         left: 150px;
+         width: 180px;
+       }
+     }
+    }
+
+    .stop-waiting {
+      height: 160px;
+      .try-it {
+        top: 110px;
+        left: 150px;
+        width: 180px;
+      }
+    }
+  }
+}

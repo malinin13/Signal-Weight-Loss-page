@@ -1,0 +1,96 @@
+.step3 {
+  position: relative;
+  height: 1300px;
+  padding: 11px 0 0 23px;
+}
+
+.step3-header {
+  font-weight: bold;
+}
+
+.step3-confirm {
+  color: #a4adb7;
+  font-family: AllerLight;
+  margin-top: 0;
+  font-size: 22px;
+  b {
+    font-family: Aller;
+  }
+}
+
+.step3-starter {
+  margin-bottom: 0;
+  color: #a4adb7;
+  font-size: 28px;
+}
+
+.step3-starter-amount {
+  margin: 0;
+  font-size: 28px;
+}
+
+.step3-start {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.step3-clickHere {
+  top: 246px;
+  left: 111px;
+  width: 237px;
+  height: 74px;
+  padding: 23px 50px 25px 60px;
+  background-image: url("../images/checkout/step3/click-here.png");
+  background-size: cover;
+  color: #fff;
+  font-size: 23px;
+  position: absolute;
+}
+
+.step3-ebook {
+  margin-top: 25px;
+}
+
+
+.step3-welcomeBox {
+  height: 920px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 5px solid #00baff;
+  margin-left: -10px;
+  max-width: 940px;
+  background-image: url("../images/checkout/step3/kristin-pic.png");
+  background-repeat: no-repeat;
+  background-position: 0 135px;
+  color: #878686;
+  font-size: 12px;
+
+  .community-features {
+    border: none;
+    margin-left: 5px;
+    img {
+      width: 180px;
+    }
+
+    .community-feature-button {
+      margin-left: 34px;
+      &.meal {
+        margin-left: 42px;
+      }
+    }
+
+    .community-feature-header {
+      margin-left: -12px;
+    }
+  }
+}
+
+.step3-welcomeImg {
+  margin-left: 50px;
+}
+
+.username {
+  font-weight: normal;
+}

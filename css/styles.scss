@@ -1,0 +1,66 @@
+.mobile {
+  display: none;
+}
+
+@font-face {
+  font-family: BebasNeue;
+  src: url(../fonts/BebasNeue.otf);
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url(../fonts/Gotham.otf);
+}
+
+@font-face {
+  font-family: Harbell;
+  src: url(../fonts/Harbell.ttf);
+}
+
+@font-face {
+  font-family: Aller;
+  src: url(../fonts/Aller_Rg.ttf);
+}
+
+@font-face {
+  font-family: AllerLight;
+  src: url(../fonts/Aller_Lt.ttf);
+}
+
+@font-face {
+  font-family: AllerItalic;
+  src: url(../fonts/Aller_Std_It.ttf);
+}
+
+@font-face {
+  font-family: AllerDisplay;
+  src: url(../fonts/AllerDisplay.ttf);
+}
+
+body {
+  font-family: Aller!important;
+}
+
+.container {
+  width: 100%;
+  max-width: 970px;
+}
+
+
+@import "b-header";
+@import "user-panel";
+@import "b-content";
+@import "b-footer";
+
+@import "ingridients-page";
+@import "community-page";
+@import "founder-page";
+@import "faq-page";
+@import "contact-page";
+@import "how-it-works-page";
+@import "success-page";
+@import "sign-up-page";
+
+@import "checkout-page1";
+@import "checkout-page2";
+@import "checkout-page3";

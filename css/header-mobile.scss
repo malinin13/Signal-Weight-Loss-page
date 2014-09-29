@@ -1,0 +1,96 @@
+/*******************************\
+        #HEADER MOBILE
+\*******************************/
+
+$blue: #2da5da;
+$border-blue: #5ebae2;
+$gray: #8b8b8b;
+
+.blue-text {
+  color: $blue;
+  b {
+    color: $gray;
+  }
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  margin: 0!important;
+}
+
+.mobile {
+  display: block;
+}
+
+hr {
+  display: none;
+}
+
+.navbar-default .navbar-toggle {
+  position: relative;
+  float: left;
+  padding: 7px 7px;
+  margin-top: 13px;
+  margin-right: 0;
+  margin-left: 9px;
+  margin-bottom: 8px;
+  background-color: $blue;
+  background-image: none;
+  border: 1px solid;
+  border-color: $border-blue;
+  border-radius: 0;
+  .icon-bar {
+    display: block;
+    width: 23px;
+    height: 5px;
+    background-color:#fff;
+  }
+}
+
+
+.navbar-logo {
+  top: 0;
+  left: 135px;
+  width: 108px;
+  height: 36px;
+}
+
+.navbar-collapse {
+  background-color: $blue;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+.nav {
+  .dropdown {
+    &.open {
+      a {
+        &.dropdown-toggle {
+          background-color: #fff;
+        }
+      }
+    }
+    li {
+      a {
+        color: #fff!important;
+      }
+    }
+  }
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.dropdown-menu {
+  background-color: $blue!important;
+}
+
+.first-section, .features, .navigtion-tabs, .nav-tabs, .tab-content, footer, .copyright {
+  display: none;
+}
+
+.container-fluid {
+  padding: 0;
+}

@@ -1,0 +1,145 @@
+/*******************************\
+   #MAIN PAGE HEADER SECTION
+\*******************************/
+
+/*****TRIGERRING DROPDOWNS ON HOVER*******/
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+
+.container {
+  max-width: 970px;
+}
+
+.nav>li>a {
+  font-family: Aller;
+  color:  #97a2ad;
+  font-weight: 700;
+  opacity: .8;
+  padding: 10px 15px 15px 35px !important;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 10px;
+
+}
+
+
+.navbar-default {
+  background-color: #fff!important;
+  border: none!important;
+}
+
+.navbar-logo {
+  width: 146px;
+  height: 49px;
+  position: relative;
+  top: -12px;
+}
+
+header {
+  &+hr {
+    margin-top: -17px;
+    margin-bottom: 5px;
+  }
+}
+
+
+
+.why-signal-works {
+  margin-right: 8px;
+
+  .dropdown-menu {
+    width: 164px;
+  }
+
+  a.dropdown-toggle {
+    &:hover {
+      border: 1px solid #5c6f7c;
+      border-bottom: none;
+      color: #fff!important;
+      position: relative;
+      background: #5c6f7c!important;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      padding: 10px 30px 15px 20px !important;
+    }
+  }
+}
+
+.success-stories {
+  margin-right: 14px;
+
+  .dropdown-menu {
+    li {
+      a {
+        max-width: 147px;
+      }
+    }
+  }
+
+  a.dropdown-toggle {
+    &:hover {
+      border: 1px solid #5c6f7c;
+      border-bottom: none;
+      color: #fff!important;
+      position: relative;
+      background: #5c6f7c!important;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      padding: 10px 30px 15px 20px !important;
+    }
+  }
+}
+
+.get-support {
+  a.dropdown-toggle {
+    &:hover {
+      border: 1px solid #5c6f7c;
+      border-bottom: none;
+      color: #fff!important;
+      position: relative;
+      background: #5c6f7c!important;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      padding: 10px 30px 15px 20px !important;
+    }
+  }
+}
+
+.my-signal {
+  margin-right: -15px;
+  margin-left: 9px;
+}
+
+.signal-icon {
+  width: 17px;
+  height: 24px;
+  position: absolute;
+  left: 18px;
+  top: 10px;
+  display: block;
+  background: (url("../images/signal.png"));
+}
+
+
+.dropdown-menu {
+  min-width: 110px!important;
+  border-bottom-left-radius: 10px!important;
+  border-bottom-right-radius: 10px!important;
+  background: #dddddd!important;
+  li {
+    a {
+      background: #dddddd!important;
+
+      &:hover {
+        color: #0cc!important;
+      }
+    }
+
+    &.divider {
+      width: 80%;
+      margin-left: 10%;
+      background-color: #5c6f7c;
+    }
+  }
+}

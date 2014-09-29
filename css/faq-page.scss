@@ -1,0 +1,70 @@
+/*******************************\
+        #FAQ PAGE
+\*******************************/
+
+.faq-header {
+  font-weight: bold;
+}
+
+.faq-subheader {
+  color: #ababab;
+  position: relative;
+  font-family: AllerLight;
+  &:after {
+    content: '';
+    width: 87px;
+    height: 1px;
+    position: absolute;
+    background-color: #dfdfdf;
+    bottom: -19px;
+    left: 0;
+  }
+}
+
+.faq-questions {
+  margin-top: 25px;
+}
+
+.faq-questions-list {
+  padding: 0;
+  list-style: none;
+  width: 50%;
+  li {
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 13px;
+
+    &.active {
+      color: #00baff;
+    }
+
+
+  }
+}
+
+.question-answer {
+  position: absolute;
+  width: 50%;
+  right: 10px;
+  top: -5px;
+  list-style: none;
+  display: none;
+  h4 {
+    color: #00baff;
+    font-family: Aller;
+    margin-bottom: 20px;
+  }
+
+  li {
+    color: #000;
+    font-family: AllerLight;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: lighter;
+  }
+}
+
+.answer-showed {
+  display: block;
+}
