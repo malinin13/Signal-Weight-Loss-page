@@ -130,3 +130,16 @@ tbody {
     padding: 0 20px;
   }
 }
+
+@media only screen and (min-width: 468px)and (max-width: 768px) and (orientation: portrait) {
+  .step2 {
+    padding-left: 0;
+    background-image: none;
+    margin-left: -15px;
+  }
+
+  .order-form.second {
+    right: 0;
+  }
+
+}

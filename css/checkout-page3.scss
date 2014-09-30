@@ -94,3 +94,57 @@
 .username {
   font-weight: normal;
 }
+
+@media only screen and (min-width: 468px)and (max-width: 990px) {
+  .step3-welcomeImg {
+    width: 175px;
+  }
+
+  .step3 {
+    padding: 0px 5px 0 5px;
+    height: 1310px;
+  }
+  .step3-welcomeBox {
+    background-position:-35px 135px;
+    height: 910px;
+  }
+
+  .step3-welcomeBox .community-features img {
+    width: 137px;
+    margin-bottom: 20px;
+  }
+
+  .step3-welcomeBox .community-features .community-feature-header {
+    font-size: 16px;
+  }
+
+  .step3-welcomeBox .community-features .community-feature-button {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .step3-welcomeBox .community-features .community-feature-button.meal {
+    margin-left: 20px;
+  }
+
+  .community-feature-descr {
+   display: none;
+  }
+
+  .step3-header {
+    font-size: 23px;
+  }
+
+  .step3-starter {
+   font-size: 23px;
+  }
+
+  .step3-start {
+    font-size: 19px;
+    margin-top: 30px;
+  }
+
+  .step3-clickHere {
+    left: 57px;
+  }
+}

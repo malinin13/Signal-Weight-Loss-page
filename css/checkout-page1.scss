@@ -1,3 +1,25 @@
+/*********CHECKOUT PAGINATION ********/
+.checkout-pagi{
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  cursor: default;
+  .pagi-item {
+    display: inline-block;
+    padding: 8px 10px;
+    background-color:  #00baff;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    &.active {
+      background-color:  #cccccc;
+    }
+  }
+}
+
 .checkout-content {
   position: relative;
 }
@@ -43,6 +65,7 @@
   list-style: none;
   width: 350px;
   margin-top: 20px;
+  font-weight: bold;
   li {
     padding-left:100px;
     height: 80px;
@@ -109,7 +132,7 @@
   right: 11px;
   top: 0;
   padding: 25px 10px;
-
+  background-color: #fff;
   .logo {
     position: relative;
     top: -10px;
@@ -142,4 +165,21 @@
   background-image: url("../images/checkout/step1/free-trial.png");
   background-color: #fff;
   margin:10px 0 0 15px;
+}
+
+@media only screen and (min-width: 468px)and (max-width: 768px) and (orientation: portrait) {
+  .step1 {
+    background-image: url("../images/checkout/step1/bg_mobile.png");
+    background-position: 0 450px;
+    background-size: 380px;
+  }
+
+  .step1-small-text {
+    font-size: 13px;
+    padding-right: 300px;
+  }
+
+  .step1-header {
+    font-size: 36px;
+  }
 }
