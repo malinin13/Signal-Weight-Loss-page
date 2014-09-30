@@ -102,3 +102,12 @@ textarea {
     outline: 3px solid #27c4ff;
   }
 }
+
+@media only screen and (min-width: 468px)and (max-width: 990px) {
+  .contact-method {
+    &.chat {
+      position: absolute;
+      top: 415px;
+    }
+  }
+}

@@ -162,4 +162,54 @@ footer {
   .copyright .made-with-love {
     margin-right: 30px;
   }
+
+  footer .socials {
+    left: -15px;
+  }
+
+  footer .socials ul {
+    margin-left: 75px;
+  }
+
+  footer .pills {
+    margin-left: -10px;
+  }
+
+  footer .pills a.click-here {
+    right: 50px;
+    top: 106px;
+  }
+
+  footer .thirty-days-promo {
+    left: 260px;
+  }
+
+  footer .try-it-free {
+    right: 35px;
+    width: 280px;
+  }
+
+  .second-tab {
+    width: 765px;
+    background-size: 100% 30%;
+    margin: 0;
+
+    .second-tab-header {
+      margin: 0 0 0 118px;
+      font-size: 25px;
+    }
+
+    .img-table {
+      width: 300px;
+      left: 450px;
+      img {
+        width: 300px;
+      }
+    }
+
+    .no .text {
+      width: 250px;
+    }
+
+  }
 }

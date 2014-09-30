@@ -563,7 +563,7 @@ a.click-here {
     position: absolute;
     width: 200px;
     top: 260px;
-    right: -40px;
+    right: -20px;
     span {
       right: 55px;
       font-size: 14px;
@@ -642,6 +642,214 @@ a.click-here {
         right: 0px;
         top: 18px;
       }
+    }
+
+  }
+}
+
+@media only screen and (min-width: 468px)and (max-width: 768px) and (orientation: portrait) {
+  .photos {
+    img {
+      width: 148px;
+    }
+    .photo-after {
+      left: 140px;
+    }
+  }
+
+  .lost-lbs {
+    top: 140px;
+    left: 100px;
+  }
+
+  .loose-weight .loose-weight-img {
+    width: 200px;
+    margin-left: 40px;
+  }
+
+  .loose-weight .loose-weight-subheader {
+    margin-left: 0;
+    margin-top: 5px;
+    font-size: 12px;
+    width: 275px;
+  }
+
+  .loose-weight .try-it {
+    font-size: 15px;
+    top: 237px;
+    left: 52px;
+  }
+
+  .loose-weight .backed {
+    top: 260px;
+    left: 39px;
+    font-size: 13px;
+  }
+
+  .first-section {
+    height: 300px;
+    .pills a.click-here {
+      left: 58px;
+      top: 236px;
+      width: 200px;
+      height: 50px;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+  .pills .pills-small {
+    width: 110px;
+    height: 190px;
+  }
+
+  .pills img {
+    width: 144px;
+    height: 239px;
+    left: 60px;
+  }
+  .pills .pills-small.right {
+    left: 148px;
+  }
+
+  .pills .image-new {
+    right: 10px;
+  }
+
+  .comment-panel {
+    width: 262px;
+    height: 54px;
+    top: 239px;
+    left: 15px;
+    padding: 7px 5px;
+    background-size: contain;
+
+    &:before {
+      width: 12px;
+      height: 12px;
+      background-size: contain;
+    }
+    &:after {
+      width: 12px;
+      height: 12px;
+      right: 90px;
+      background-size: contain;
+    }
+  }
+
+  .comment-author {
+    .name, .founder {
+      font-size: 8px;
+      right: 5px;
+    }
+  }
+
+  .comment-panel .comment span:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .feature {
+    width: 232px;
+
+    .feature-header {
+      padding-top: 15px;
+      h3 {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .feature.ingridients {
+    margin-left: -3px;
+  }
+  .tab-content .overeating, .tab-content .hunger, .tab-content .learning, .tab-content .losing {
+    background-size: 165px;
+  }
+
+  .first-tab div {
+    padding-top: 180px;
+  }
+
+  .first-tab .learning p {
+    width: 160px;
+    margin-left: -7px;
+  }
+
+  .first-tab h1 {
+    font-size: 44px;
+  }
+
+  .first-tab div h4 {
+    font-size: 14px;
+  }
+
+  .start-img, .stop-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .nav-tabs {
+    width: 100%;
+  }
+
+  .third-tab {
+    .story-photos {
+      img {
+        width: 180px;
+      }
+    }
+
+    .story-text {
+      width: 350px;
+      height: 292px;
+      padding: 25px 25px 40px;
+      &:before {
+        width: 29px;
+        height: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      &:after {
+        width: 29px;
+        height: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        right: 100px;
+      }
+    }
+
+    .kristin {
+      .story-photos {
+        position: absolute;
+        right: 0px;
+        top: 65px;
+        float: none;
+      }
+
+      .comment-author {
+        top: 313px!important;
+        right: -23px!important;
+      }
+    }
+
+    .jeanette {
+      .story-text {
+        position: absolute;
+        left: 55px;
+        height: 380px;
+        &:after {
+          right: 55px;
+        }
+      }
+
+      .story-photos {
+        top: -20px;
+      }
+    }
+
+    .comment-author {
+      top: 335px!important;
+      right: -50px!important;
     }
 
   }

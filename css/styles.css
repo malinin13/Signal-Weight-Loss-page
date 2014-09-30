@@ -128,6 +128,47 @@ header + hr {
     margin-left: 10%;
     background-color: #5c6f7c; }
 
+@media only screen and (min-width: 468px) and (max-width: 768px) and (orientation: portrait) {
+  body .navbar-brand {
+    width: 120px; }
+  body .navbar-logo {
+    width: 120px;
+    height: 40px;
+    top: -5px; }
+  body .feature-image {
+    width: 150px; }
+  body .community-feature-header {
+    font-size: 18px;
+    width: 177px;
+    margin-left: -17px; }
+  body .community-feature-button {
+    margin-left: 10px; }
+  body .community-feature-button {
+    margin-left: 17px; }
+  body .community-header {
+    font-size: 36px; }
+  body .community-subheader {
+    font-size: 18px; }
+  body .community-subheader-small {
+    font-size: 12px; }
+  body .with-signal-header {
+    font-size: 32px; }
+  body .with-signal-subheader {
+    position: relative;
+    z-index: 10;
+    font-size: 17px; }
+  body .with-signal-laurene {
+    margin-left: 5px;
+    margin-top: -37px; }
+  body .with-signal-list li.signal-good:after {
+    bottom: -35px; }
+  body .get-skinny-header {
+    font-size: 30px; }
+  body .get-skinny-real-food {
+    margin: 0;
+    width: 100%; }
+  body .get-skinny-text {
+    text-align: center; } }
 .user-panel {
   background-color: #00baff;
   height: 30px;
@@ -626,7 +667,7 @@ a.click-here {
     position: absolute;
     width: 200px;
     top: 260px;
-    right: -40px; }
+    right: -20px; }
     .third-tab .comment-author span {
       right: 55px;
       font-size: 14px; }
@@ -679,6 +720,154 @@ a.click-here {
         right: 0px;
         top: 18px; }
 
+@media only screen and (min-width: 468px) and (max-width: 768px) and (orientation: portrait) {
+  .photos img {
+    width: 148px; }
+  .photos .photo-after {
+    left: 140px; }
+
+  .lost-lbs {
+    top: 140px;
+    left: 100px; }
+
+  .loose-weight .loose-weight-img {
+    width: 200px;
+    margin-left: 40px; }
+
+  .loose-weight .loose-weight-subheader {
+    margin-left: 0;
+    margin-top: 5px;
+    font-size: 12px;
+    width: 275px; }
+
+  .loose-weight .try-it {
+    font-size: 15px;
+    top: 237px;
+    left: 52px; }
+
+  .loose-weight .backed {
+    top: 260px;
+    left: 39px;
+    font-size: 13px; }
+
+  .first-section {
+    height: 300px; }
+    .first-section .pills a.click-here {
+      left: 58px;
+      top: 236px;
+      width: 200px;
+      height: 50px;
+      background-repeat: no-repeat;
+      background-size: contain; }
+
+  .pills .pills-small {
+    width: 110px;
+    height: 190px; }
+
+  .pills img {
+    width: 144px;
+    height: 239px;
+    left: 60px; }
+
+  .pills .pills-small.right {
+    left: 148px; }
+
+  .pills .image-new {
+    right: 10px; }
+
+  .comment-panel {
+    width: 262px;
+    height: 54px;
+    top: 239px;
+    left: 15px;
+    padding: 7px 5px;
+    background-size: contain; }
+    .comment-panel:before {
+      width: 12px;
+      height: 12px;
+      background-size: contain; }
+    .comment-panel:after {
+      width: 12px;
+      height: 12px;
+      right: 90px;
+      background-size: contain; }
+
+  .comment-author .name, .comment-author .founder {
+    font-size: 8px;
+    right: 5px; }
+
+  .comment-panel .comment span:nth-child(3) {
+    margin-left: 0; }
+
+  .feature {
+    width: 232px; }
+    .feature .feature-header {
+      padding-top: 15px; }
+      .feature .feature-header h3 {
+        font-size: 13px; }
+
+  .feature.ingridients {
+    margin-left: -3px; }
+
+  .tab-content .overeating, .tab-content .hunger, .tab-content .learning, .tab-content .losing {
+    background-size: 165px; }
+
+  .first-tab div {
+    padding-top: 180px; }
+
+  .first-tab .learning p {
+    width: 160px;
+    margin-left: -7px; }
+
+  .first-tab h1 {
+    font-size: 44px; }
+
+  .first-tab div h4 {
+    font-size: 14px; }
+
+  .start-img, .stop-img {
+    width: 60px;
+    height: 60px; }
+
+  .nav-tabs {
+    width: 100%; }
+
+  .third-tab .story-photos img {
+    width: 180px; }
+  .third-tab .story-text {
+    width: 350px;
+    height: 292px;
+    padding: 25px 25px 40px; }
+    .third-tab .story-text:before {
+      width: 29px;
+      height: 20px;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .third-tab .story-text:after {
+      width: 29px;
+      height: 20px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      right: 100px; }
+  .third-tab .kristin .story-photos {
+    position: absolute;
+    right: 0px;
+    top: 65px;
+    float: none; }
+  .third-tab .kristin .comment-author {
+    top: 313px !important;
+    right: -23px !important; }
+  .third-tab .jeanette .story-text {
+    position: absolute;
+    left: 55px;
+    height: 380px; }
+    .third-tab .jeanette .story-text:after {
+      right: 55px; }
+  .third-tab .jeanette .story-photos {
+    top: -20px; }
+  .third-tab .comment-author {
+    top: 335px !important;
+    right: -50px !important; } }
 /*******************************\
     #MAIN PAGE FOOTER SECTION
 \*******************************/
@@ -800,7 +989,42 @@ footer {
     top: 100px; }
 
   .copyright .made-with-love {
-    margin-right: 30px; } }
+    margin-right: 30px; }
+
+  footer .socials {
+    left: -15px; }
+
+  footer .socials ul {
+    margin-left: 75px; }
+
+  footer .pills {
+    margin-left: -10px; }
+
+  footer .pills a.click-here {
+    right: 50px;
+    top: 106px; }
+
+  footer .thirty-days-promo {
+    left: 260px; }
+
+  footer .try-it-free {
+    right: 35px;
+    width: 280px; }
+
+  .second-tab {
+    width: 765px;
+    background-size: 100% 30%;
+    margin: 0; }
+    .second-tab .second-tab-header {
+      margin: 0 0 0 118px;
+      font-size: 25px; }
+    .second-tab .img-table {
+      width: 300px;
+      left: 450px; }
+      .second-tab .img-table img {
+        width: 300px; }
+    .second-tab .no .text {
+      width: 250px; } }
 /*******************************\
         #INGRIDIENTS PAGE
 \*******************************/
@@ -1318,6 +1542,10 @@ textarea {
   textarea:focus {
     outline: 3px solid #27c4ff; }
 
+@media only screen and (min-width: 468px) and (max-width: 990px) {
+  .contact-method.chat {
+    position: absolute;
+    top: 415px; } }
 /*******************************\
         #HOW IT WORKS PAGE
 \*******************************/
@@ -1875,7 +2103,7 @@ tbody {
   .step3-welcomeBox .community-features .community-feature-button.meal {
     margin-left: 20px; }
 
-  .community-feature-descr {
+  .step3-welcomeBox .community-feature-descr {
     display: none; }
 
   .step3-header {
