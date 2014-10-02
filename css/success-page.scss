@@ -144,3 +144,70 @@ height: 760px;
 .laurene-big {
   margin-left: 20px;
 }
+
+@media only screen and (min-width: 468px)and (max-width: 990px) {
+  .success-page-text {
+    width: 100%;
+  }
+
+  .story-author {
+    width: 377px;
+    padding: 20px 20px;
+  }
+  .quote-text {
+    font-family: AllerLight;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 15px;
+    &:before, &:after {
+      width: 30px;
+      height: 21px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    &:before {
+      left: -30px;
+    }
+    &:after {
+      right: -12px;
+    }
+  }
+  .kristin-big {
+    width: 330px;
+    left: 10px;
+  }
+  .jeanette {
+    .quote-img {
+      margin-left: -50px;
+    }
+    .quote-text {
+      font-size: 20px;
+      margin-top: 20px;
+      &:after {
+        right: 175px;
+      }
+    }
+  }
+
+  .janette-big {
+    position: absolute;
+    left: -10px;
+    width: 320px;
+  }
+
+  .laurene {
+    .quote-text {
+      font-size: 21px;
+      margin-top: 20px;
+      &:after {
+        right: 245px;
+      }
+    }
+  }
+  .laurene-big {
+    width: 330px;
+    position: absolute;
+    left: -15px;
+  }
+}

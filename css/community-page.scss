@@ -183,3 +183,76 @@ position: relative;
   margin-top: 15px;
   opacity: .8;
 }
+
+@media only screen and (min-width: 468px)and (max-width: 990px) {
+  .community-heart {
+    width: 390px;
+    position: absolute;
+    left: -29px;
+  }
+
+  .feature-image {
+    width: 150px;
+  }
+
+  .community-feature-header {
+    font-size: 18px;
+    width: 177px;
+    margin-left: -17px;
+  }
+
+  .community-feature-button {
+    margin-left: 10px;
+  }
+
+  .community-feature-button {
+    margin-left: 17px;
+    &.support-btn {
+      margin-left: 8px;
+    }
+  }
+
+  .community-header {
+    font-size: 36px;
+  }
+  .community-subheader {
+    font-size: 18px;
+  }
+
+  .community-subheader-small {
+    font-size: 12px;
+  }
+
+  .with-signal-header {
+    font-size: 32px;
+  }
+
+  .with-signal-subheader {
+    position: relative;
+    z-index: 10;
+    font-size: 17px;
+  }
+
+  .with-signal-laurene {
+    margin-left: 5px;
+    margin-top: -37px;
+    width: 300px;
+  }
+  .with-signal-list li.signal-good:after {
+    bottom: -35px;
+  }
+
+  .get-skinny-header {
+    font-size: 30px;
+  }
+
+  .get-skinny-real-food {
+    margin: 0;
+    width: 100%;
+  }
+
+  .get-skinny-text {
+    text-align: center;
+  }
+
+}

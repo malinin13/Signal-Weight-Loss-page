@@ -75,3 +75,42 @@
     }
   }
 }
+
+@media only screen and (min-width: 468px)and (max-width: 990px) {
+  .how-steps-img {
+    width: 490px;
+  }
+
+  .how-steps-descr li {
+    width: 107px;
+    margin-right: 10px;
+    margin-left: 5px;
+
+    &:nth-child(2) {
+      position: relative;
+      top: -20px;
+    }
+  }
+
+  .how-janette {
+    top: 55px;
+    right: 20px;
+    width: 223px;
+  }
+  .how-content .tab-content {
+    margin-left: -40px;
+  }
+
+  .how-subheader {
+    position: relative;
+    &:after {
+      content: '';
+      width: 100px;
+      height: 1px;
+      background-color: #e7e7e7;
+      position: absolute;
+      left: 0;
+      top: 50px;
+    }
+  }
+}

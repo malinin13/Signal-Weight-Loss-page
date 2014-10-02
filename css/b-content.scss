@@ -697,6 +697,10 @@ a.click-here {
       background-size: contain;
     }
   }
+  .first-section .pills {
+    position: absolute;
+    right: 5px;
+  }
   .pills .pills-small {
     width: 110px;
     height: 190px;
@@ -762,7 +766,22 @@ a.click-here {
     margin-left: -3px;
   }
   .tab-content .overeating, .tab-content .hunger, .tab-content .learning, .tab-content .losing {
-    background-size: 165px;
+    background-size: 165px!important;
+  }
+
+  .feature.hunger .feature-body, .feature.ingridients .feature-body, .feature.support .feature-body {
+    left: 11px;
+  }
+  .feature .read-more-link {
+    left: 11px;
+    bottom: 10px;
+  }
+  .feature.hunger {
+    background-position: 126px 39px;
+    background-size: 115px;
+  }
+  .feature.ingridients .feature-body {
+   background-color: rgba(255, 255, 255, .7);
   }
 
   .first-tab div {
@@ -776,6 +795,7 @@ a.click-here {
 
   .first-tab h1 {
     font-size: 44px;
+    margin-left: 20px;
   }
 
   .first-tab div h4 {
@@ -789,6 +809,39 @@ a.click-here {
 
   .nav-tabs {
     width: 100%;
+  }
+
+  .second-tab {
+    width: 768px;
+    background-size: 100% 30%;
+    margin-left: -2px;
+
+    .second-tab-header {
+      margin: 0 0 0 118px;
+      font-size: 25px;
+    }
+
+    .img-table {
+      width: 300px;
+      left: 430px;
+      top: 185px;
+      img {
+        width: 300px;
+      }
+    }
+
+    .no .text {
+      width: 250px;
+      left: 150px;
+    }
+
+  }
+
+  .second-tab .superfoods {
+    left: 25px;
+  }
+  .second-tab .no .no-img {
+    left: 25px;
   }
 
   .third-tab {

@@ -46,6 +46,11 @@ body {
   max-width: 970px;
 }
 
+@media only screen and (min-width: 468px)and (max-width: 990px) {
+  .row {
+    max-width: 768px;
+  }
+}
 
 @import "b-header";
 @import "user-panel";

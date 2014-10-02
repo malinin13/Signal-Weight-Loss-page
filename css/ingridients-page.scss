@@ -160,3 +160,68 @@ body {
    background-color: transparent!important;
   }
 }
+
+@media only screen and (min-width: 468px)and (max-width: 990px) {
+  .ingridients-content .pills .components {
+    left: -10px;
+    width: 720px;
+    height: 450px;
+  }
+
+  .ingridients-content .pills .pills-bg {
+    left: 138px;
+    width: 420px;
+    height: 320px;
+  }
+  .ingridients-content .pills {
+    left: 15px;
+  }
+  .popover-hover.kidney-bean {
+    left: 0;
+  }
+  .popover-hover.carrot {
+    left: -10px;
+    top: 155px;
+  }
+  .popover-hover.oat-bean {
+    left: 0;
+    top: 270px;
+  }
+  .popover-hover.grass {
+    bottom: 65px;
+    left: 85px;
+  }
+  .popover-hover.vitamin {
+    bottom: 76px;
+    left: 300px;
+  }
+  .popover-hover.rice {
+    right: 60px;
+    bottom: 70px;
+  }
+  .popover-hover.mint {
+    right: -15px;
+    bottom: 160px;
+  }
+  .popover-hover.cherry {
+    top: 150px;
+    right: -20px;
+  }
+  .popover-hover.cinnamon {
+    top: 15px;
+    right: -15px;
+  }
+
+  .ingridients-content .second-tab {
+    margin-left: -16px;
+  }
+  .ingridients-content .second-tab .superfoods {
+    left: 24px;
+  }
+  .ingridients-content .second-tab .no .no-img {
+    left: 27px;
+  }
+  .ingridients-content .second-tab .no .text {
+    left: 150px;
+  }
+}

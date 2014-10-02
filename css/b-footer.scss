@@ -2,8 +2,16 @@
     #MAIN PAGE FOOTER SECTION
 \*******************************/
 .footer-row {
+  margin-left: -17px!important;
   .col-md-12 {
     padding: 0;
+  }
+}
+
+@media only screen and (min-width: 468px)and (max-width: 990px) {
+  .footer-row {
+    width: 768px;
+    margin-left: -17px!important;
   }
 }
 
@@ -189,27 +197,4 @@ footer {
     width: 280px;
   }
 
-  .second-tab {
-    width: 765px;
-    background-size: 100% 30%;
-    margin: 0;
-
-    .second-tab-header {
-      margin: 0 0 0 118px;
-      font-size: 25px;
-    }
-
-    .img-table {
-      width: 300px;
-      left: 450px;
-      img {
-        width: 300px;
-      }
-    }
-
-    .no .text {
-      width: 250px;
-    }
-
-  }
 }
