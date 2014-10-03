@@ -29,6 +29,7 @@
   min-height: 800px;
   background-image: url("../images/checkout/step1/bg.png");
   background-repeat: no-repeat;
+  background-position: 0 10px;
   position: relative;
 }
 
@@ -58,16 +59,18 @@
   font-family: AllerLight;
   opacity: .7;
   margin-top: 30px;
+  font-size: 20px;
 }
 
 .steps-list {
   padding: 0;
   list-style: none;
   width: 350px;
-  margin-top: 20px;
+  margin-top: 7px;
+  margin-left: -13px;
   font-weight: bold;
   li {
-    padding-left:100px;
+    padding-left: 89px;
     height: 80px;
     position: relative;
   }
@@ -181,5 +184,67 @@
 
   .step1-header {
     font-size: 36px;
+  }
+}
+
+@media only screen and (min-width: 320px)and (max-width: 468px) {
+  body {
+
+    .checkout-pagi {
+      right: 12px;
+      top: 20px;
+    }
+
+    .step1 {
+      background-image: none;
+    }
+
+    .step1-header{
+      margin: 13px 0 20px 0;
+      &:before {
+        top: 100px;
+      }
+    }
+
+    .step1-subheader {
+      margin-top: -2px;
+      line-height: 23px;
+    }
+
+    .step1-small-text {
+      margin-top: 960px;
+    }
+    .steps-list {
+      margin-top: -20px;
+      margin-left: -5px;
+
+      li {
+        padding: 70px 5px 0;
+        font-weight: normal;
+        font-size: 12px;
+        text-align: center;
+        background-size: 40px;
+        background-position: center center;
+        &:after {
+          width: 0;
+          height: 0;
+        }
+      }
+
+    }
+    .order-form {
+      width: 100%;
+
+      position: absolute;
+      top: 370px;
+      left: 0;
+    }
+
+    .order-form-submit {
+      width: 249px;
+      margin: 10px 0 0 9px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
   }
 }

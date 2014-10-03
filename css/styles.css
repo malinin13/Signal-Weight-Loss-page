@@ -29,6 +29,9 @@ body {
   width: 100%;
   max-width: 970px; }
 
+.row {
+  max-width: 1280px; }
+
 @media only screen and (min-width: 468px) and (max-width: 990px) {
   .row {
     max-width: 768px; } }
@@ -66,35 +69,7 @@ header + hr {
   margin-top: -17px;
   margin-bottom: 5px; }
 
-.why-signal-works {
-  margin-right: 8px; }
-  .why-signal-works .dropdown-menu {
-    width: 164px; }
-  .why-signal-works a.dropdown-toggle:hover {
-    border: 1px solid #5c6f7c;
-    border-bottom: none;
-    color: white !important;
-    position: relative;
-    background: #5c6f7c !important;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    padding: 10px 30px 15px 20px !important; }
-
-.success-stories {
-  margin-right: 14px; }
-  .success-stories .dropdown-menu li a {
-    max-width: 147px; }
-  .success-stories a.dropdown-toggle:hover {
-    border: 1px solid #5c6f7c;
-    border-bottom: none;
-    color: white !important;
-    position: relative;
-    background: #5c6f7c !important;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    padding: 10px 30px 15px 20px !important; }
-
-.get-support a.dropdown-toggle:hover {
+a.dropdown-toggle:hover, a.dropdown-toggle.hovered {
   border: 1px solid #5c6f7c;
   border-bottom: none;
   color: white !important;
@@ -103,6 +78,16 @@ header + hr {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   padding: 10px 30px 15px 20px !important; }
+
+.why-signal-works {
+  margin-right: 8px; }
+  .why-signal-works .dropdown-menu {
+    width: 164px; }
+
+.success-stories {
+  margin-right: 14px; }
+  .success-stories .dropdown-menu li a {
+    max-width: 147px; }
 
 .my-signal {
   margin-right: -15px;
@@ -138,6 +123,15 @@ header + hr {
     width: 120px;
     height: 40px;
     top: -5px; } }
+@media only screen and (min-width: 320px) and (max-width: 468px) {
+  body header + hr {
+    width: 320px;
+    margin-left: -20px; }
+  body .navbar {
+    min-height: 67px; }
+  body .navbar-logo {
+    top: 0;
+    left: -20px; } }
 .user-panel {
   background-color: #00baff;
   height: 30px;
@@ -1027,6 +1021,30 @@ footer {
   footer .try-it-free {
     right: 35px;
     width: 280px; } }
+@media only screen and (min-width: 320px) and (max-width: 468px) {
+  .footer-hr {
+    width: 320px;
+    margin-left: -20px; }
+
+  .copyright {
+    width: 280px;
+    text-align: center;
+    margin-top: 16px; }
+
+  .copyright a, .copyright span {
+    top: 20px; }
+
+  .copyright .logo {
+    position: absolute;
+    top: 80px;
+    left: 54px; }
+
+  .copyright .made-with-love {
+    margin-top: 112px; }
+
+  .copyright .assure {
+    top: 181px;
+    right: 89px; } }
 /*******************************\
         #INGRIDIENTS PAGE
 \*******************************/
@@ -2002,6 +2020,7 @@ textarea {
   min-height: 800px;
   background-image: url("../images/checkout/step1/bg.png");
   background-repeat: no-repeat;
+  background-position: 0 10px;
   position: relative; }
 
 .step1-header {
@@ -2024,16 +2043,18 @@ textarea {
 .step1-subheader {
   font-family: AllerLight;
   opacity: .7;
-  margin-top: 30px; }
+  margin-top: 30px;
+  font-size: 20px; }
 
 .steps-list {
   padding: 0;
   list-style: none;
   width: 350px;
-  margin-top: 20px;
+  margin-top: 7px;
+  margin-left: -13px;
   font-weight: bold; }
   .steps-list li {
-    padding-left: 100px;
+    padding-left: 89px;
     height: 80px;
     position: relative; }
 
@@ -2124,6 +2145,44 @@ textarea {
 
   .step1-header {
     font-size: 36px; } }
+@media only screen and (min-width: 320px) and (max-width: 468px) {
+  body .checkout-pagi {
+    right: 12px;
+    top: 20px; }
+  body .step1 {
+    background-image: none; }
+  body .step1-header {
+    margin: 13px 0 20px 0; }
+    body .step1-header:before {
+      top: 100px; }
+  body .step1-subheader {
+    margin-top: -2px;
+    line-height: 23px; }
+  body .step1-small-text {
+    margin-top: 960px; }
+  body .steps-list {
+    margin-top: -20px;
+    margin-left: -5px; }
+    body .steps-list li {
+      padding: 70px 5px 0;
+      font-weight: normal;
+      font-size: 12px;
+      text-align: center;
+      background-size: 40px;
+      background-position: center center; }
+      body .steps-list li:after {
+        width: 0;
+        height: 0; }
+  body .order-form {
+    width: 100%;
+    position: absolute;
+    top: 370px;
+    left: 0; }
+  body .order-form-submit {
+    width: 249px;
+    margin: 10px 0 0 9px;
+    background-size: contain;
+    background-repeat: no-repeat; } }
 .step2 {
   position: relative;
   background-image: url("../images/checkout/step2/pills.png");
@@ -2233,6 +2292,30 @@ tbody {
 
   .order-form.second {
     right: 0; } }
+@media only screen and (min-width: 320px) and (max-width: 468px) {
+  .step2 {
+    height: 1350px;
+    padding: 0;
+    background-image: none; }
+
+  .order-form.second {
+    top: 690px; }
+
+  .cart-header:after {
+    left: 127px; }
+
+  .cart {
+    width: 290px; }
+
+  .subtotal {
+    padding: 18px 15px 15px 15px; }
+
+  .take-back {
+    margin-top: 15px; }
+
+  .row.small {
+    box-sizing: border-box;
+    padding: 0 15px; } }
 .step3 {
   position: relative;
   height: 1300px;

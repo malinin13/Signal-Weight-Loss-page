@@ -143,3 +143,37 @@ tbody {
   }
 
 }
+
+@media only screen and (min-width: 320px)and (max-width: 468px) {
+  .step2 {
+    height: 1350px;
+    padding: 0;
+    background-image: none;
+  }
+
+  .order-form.second {
+    top: 690px;
+  }
+
+  .cart-header:after {
+    left: 127px;
+  }
+
+  .cart {
+    width: 290px;
+  }
+
+  .subtotal {
+    padding: 18px 15px 15px 15px;
+  }
+
+  .take-back {
+   margin-top: 15px;
+  }
+  .row {
+    &.small {
+      box-sizing: border-box;
+      padding: 0 15px;
+    }
+  }
+}

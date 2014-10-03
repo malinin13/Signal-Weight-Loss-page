@@ -11,7 +11,17 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 
+<script>
+    $(document).ready(function(){
+       $('.dropdown-menu').hover(function(){
+           $(this).parent('.dropdown').find('.dropdown-toggle').addClass('hovered');
+       },
+       function() {
+           $(this).parent('.dropdown').find('.dropdown-toggle').removeClass('hovered');
+       })
 
+    });
+</script>
 <body>
 
 <div class="container">
@@ -64,7 +74,7 @@
                                     <li><a href="/email-sign-up">Email sign up</a></li>
                                 </ul>
                             </li>
-                            <li class="my-signal"><a href="/my-signal" class="dropdown-toggle" data-toggle="dropdown"><i class="signal-icon"></i>My signal</a></li>
+                            <li class="my-signal"><a href="/my-signal"><i class="signal-icon"></i>My signal</a></li>
                         </ul>
 
                     </div><!-- /.navbar-collapse -->

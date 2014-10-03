@@ -46,6 +46,9 @@ body {
   max-width: 970px;
 }
 
+.row {
+  max-width: 1280px;
+}
 @media only screen and (min-width: 468px)and (max-width: 990px) {
   .row {
     max-width: 768px;

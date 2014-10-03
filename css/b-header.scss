@@ -43,7 +43,19 @@ header {
   }
 }
 
+a.dropdown-toggle {
+  &:hover, &.hovered {
+    border: 1px solid #5c6f7c;
+    border-bottom: none;
+    color: #fff!important;
+    position: relative;
+    background: #5c6f7c!important;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 10px 30px 15px 20px !important;
+  }
 
+}
 
 .why-signal-works {
   margin-right: 8px;
@@ -52,18 +64,7 @@ header {
     width: 164px;
   }
 
-  a.dropdown-toggle {
-    &:hover {
-      border: 1px solid #5c6f7c;
-      border-bottom: none;
-      color: #fff!important;
-      position: relative;
-      background: #5c6f7c!important;
-      border-top-left-radius: 30px;
-      border-top-right-radius: 30px;
-      padding: 10px 30px 15px 20px !important;
-    }
-  }
+
 }
 
 .success-stories {
@@ -77,34 +78,8 @@ header {
     }
   }
 
-  a.dropdown-toggle {
-    &:hover {
-      border: 1px solid #5c6f7c;
-      border-bottom: none;
-      color: #fff!important;
-      position: relative;
-      background: #5c6f7c!important;
-      border-top-left-radius: 30px;
-      border-top-right-radius: 30px;
-      padding: 10px 30px 15px 20px !important;
-    }
-  }
 }
 
-.get-support {
-  a.dropdown-toggle {
-    &:hover {
-      border: 1px solid #5c6f7c;
-      border-bottom: none;
-      color: #fff!important;
-      position: relative;
-      background: #5c6f7c!important;
-      border-top-left-radius: 30px;
-      border-top-right-radius: 30px;
-      padding: 10px 30px 15px 20px !important;
-    }
-  }
-}
 
 .my-signal {
   margin-right: -15px;
@@ -157,4 +132,23 @@ header {
     }
 
   }
+}
+
+@media only screen and (min-width: 320px)and (max-width: 468px) {
+  body {
+    header + hr {
+      width: 320px;
+      margin-left: -20px;
+    }
+
+    .navbar {
+      min-height: 67px;
+    }
+
+    .navbar-logo {
+      top: 0;
+      left: -20px;
+    }
+  }
+
 }
