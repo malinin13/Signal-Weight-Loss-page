@@ -1,7 +1,7 @@
 /*******************************\
         #HEADER MOBILE
 \*******************************/
-
+@media only screen and (max-width: 320px) {
 $blue: #2da5da;
 $border-blue: #5ebae2;
 $gray: #8b8b8b;
@@ -21,13 +21,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   display: block;
 }
 
-hr {
-  display: none;
-}
 
+header {
 .navbar-default .navbar-toggle {
   position: relative;
-  float: left;
   padding: 7px 7px;
   margin-top: 13px;
   margin-right: 0;
@@ -47,11 +44,13 @@ hr {
 }
 
 
-.navbar-logo {
-  top: 0;
-  left: 135px;
-  width: 108px;
-  height: 36px;
+
+  .navbar-logo {
+    top: 0;
+    left: 0;
+    width: 108px;
+    height: 36px;
+  }
 }
 
 .navbar-collapse {
@@ -87,10 +86,12 @@ hr {
   background-color: $blue!important;
 }
 
-.first-section, .features, .navigtion-tabs, .nav-tabs, .tab-content, footer, .copyright {
+.first-section, .features, .navigtion-tabs, .nav-tabs, .tab-content, footer {
   display: none;
 }
 
 .container-fluid {
   padding: 0;
+}
+
 }

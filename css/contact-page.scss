@@ -111,3 +111,23 @@ textarea {
     }
   }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  .contact-method-header:after {
+    bottom: -5px;
+  }
+  .contact-header {
+    font-size: 32px;
+  }
+  .contact-method {
+    &.chat {
+      margin-top: 0;
+    }
+  }
+  .contact-skype {
+    h2 {
+      margin-top: 10px!important;
+    }
+  }
+}
+

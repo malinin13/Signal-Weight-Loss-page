@@ -8,7 +8,7 @@
   }
 }
 
-@media only screen and (min-width: 468px)and (max-width: 990px) {
+@media only screen and (min-width: 481px)and (max-width: 990px) {
   .footer-row {
     width: 768px;
     margin-left: -17px!important;
@@ -160,7 +160,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 468px)and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 481px)and (max-width: 768px) and (orientation: portrait) {
   .copyright .assure {
     position: absolute;
     right: 25px;
@@ -199,14 +199,60 @@ footer {
 
 }
 
-@media only screen and (min-width: 320px)and (max-width: 468px) {
+@media only screen and (min-width: 320px)and (max-width: 480px) {
+
+  footer {
+    background-image: none;
+  }
+
+  .FooterMobBg {
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    left: 10px;
+    top: 11px;
+  }
+
+  footer .socials {
+    margin-top: 120px;
+    ul {
+      margin-left: 25px;
+
+      li {
+        padding-right: 6px;
+        i {
+          width: 64px;
+          height: 66px;
+
+          &.inst, &.fb, &.tw, &.pin, &.g, &.blog, &.contact  {
+            background-size: contain;
+          }
+        }
+
+        &.g-icon {
+          margin-left: 30px;
+        }
+
+        &.g-icon, &.b-icon, &.c-icon {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+  a.click-here {
+    position: absolute;
+    top: 76px;
+    left: 60px;
+  }
+
   .footer-hr {
     width: 320px;
-    margin-left: -20px;
+    margin-left: -7px;
   }
 
   .copyright {
-    width: 280px;
+    width: 100%;
     text-align: center;
     margin-top: 16px;
   }
@@ -215,18 +261,26 @@ footer {
     top: 20px;
   }
 
+
+
   .copyright .logo {
     position: absolute;
     top: 80px;
-    left: 54px;
+    left: 50%;
+    margin-left: -73px;
   }
 
   .copyright .made-with-love {
     margin-top: 112px;
+    width: 140px;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
   }
 
   .copyright .assure {
     top: 181px;
-    right: 89px;
+    left: 50%;
+    margin-left: -50px;
   }
 }

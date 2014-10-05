@@ -49,13 +49,31 @@ body {
 .row {
   max-width: 1280px;
 }
-@media only screen and (min-width: 468px)and (max-width: 990px) {
+
+@media only screen and (max-width: 320px) {
+  .row {
+    max-width: 320px;
+    padding: 0;
+    margin-right: -15px!important;
+    margin-left: -8px!important;
+  }
+}
+
+
+@media only screen and (min-width: 321px)and (max-width: 480px) {
+  .row {
+    max-width: 480px;
+  }
+}
+
+@media only screen and (min-width: 481px)and (max-width: 990px) {
   .row {
     max-width: 768px;
   }
 }
 
 @import "b-header";
+@import "header-mobile";
 @import "user-panel";
 @import "b-content";
 @import "b-footer";

@@ -131,7 +131,7 @@ tbody {
   }
 }
 
-@media only screen and (min-width: 468px)and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 481px)and (max-width: 768px) and (orientation: portrait) {
   .step2 {
     padding-left: 0;
     background-image: none;
@@ -144,7 +144,12 @@ tbody {
 
 }
 
-@media only screen and (min-width: 320px)and (max-width: 468px) {
+@media only screen and (min-width: 320px)and (max-width: 480px) {
+  .order-form .logo {
+    left: 50%;
+    margin-left: -73px;
+  }
+
   .step2 {
     height: 1350px;
     padding: 0;
@@ -156,11 +161,12 @@ tbody {
   }
 
   .cart-header:after {
-    left: 127px;
+    left: 50%;
+    margin-left: -18px;
   }
 
   .cart {
-    width: 290px;
+    width: 100%;
   }
 
   .subtotal {

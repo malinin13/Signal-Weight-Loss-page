@@ -68,3 +68,21 @@
 .answer-showed {
   display: block;
 }
+
+@media only screen and (min-width: 320px)and (max-width: 468px) {
+  .faq-questions {
+    height: 770px;
+  }
+
+  .faq-header {
+    font-size: 30px;
+  }
+  .faq-questions-list {
+    width: 100%;
+  }
+  .question-answer {
+    width: 100%;
+    top: 480px;
+    -webkit-padding-start: 25px;
+  }
+}
