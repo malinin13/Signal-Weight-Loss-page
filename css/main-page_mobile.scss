@@ -2,10 +2,10 @@
         #MAIN PAGE_mobile
 \*******************************/
 
+$blue: #2da5da;
+$border-blue: #d5edf7;
 
-
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 568px) {
   body {
     @import "header-mobile";
     .banner {
@@ -283,5 +283,16 @@
         width: 180px;
       }
     }
+  }
+}
+
+@media screen and (min-width: 567px) and (max-width: 568px) {
+  body .stop-waiting .try-it {
+    top: 124px;
+    left: 205px;
+  }
+
+  body .stop-waiting .stop-text {
+    margin: 0 auto;
   }
 }

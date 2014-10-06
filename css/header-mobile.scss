@@ -1,7 +1,16 @@
 /*******************************\
         #HEADER MOBILE
 \*******************************/
-@media only screen and (max-width: 320px) {
+
+@media only screen and (min-width: 480px) and (max-width: 568px) {
+  .row {
+    &.header-row {
+      margin-left: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 568px) {
 $blue: #2da5da;
 $border-blue: #5ebae2;
 $gray: #8b8b8b;
@@ -86,7 +95,7 @@ header {
   background-color: $blue!important;
 }
 
-.first-section, .features, .navigtion-tabs, .nav-tabs, .tab-content, footer {
+.first-section, .features, .navigtion-tabs, .nav-tabs, .tab-content {
   display: none;
 }
 

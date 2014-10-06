@@ -8,7 +8,7 @@
   }
 }
 
-@media only screen and (min-width: 481px)and (max-width: 990px) {
+@media only screen and (min-width: 568px)and (max-width: 990px) {
   .footer-row {
     width: 768px;
     margin-left: -17px!important;
@@ -160,7 +160,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 481px)and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 568px)and (max-width: 768px) and (orientation: portrait) {
   .copyright .assure {
     position: absolute;
     right: 25px;
@@ -199,7 +199,8 @@ footer {
 
 }
 
-@media only screen and (min-width: 320px)and (max-width: 480px) {
+// iphone 4 and 5 landscape and portrait
+@media only screen and (min-width: 320px)and (max-width: 568px) {
 
   footer {
     background-image: none;
@@ -247,7 +248,7 @@ footer {
   }
 
   .footer-hr {
-    width: 320px;
+    width: 100%;
     margin-left: -7px;
   }
 
@@ -282,5 +283,60 @@ footer {
     top: 181px;
     left: 50%;
     margin-left: -50px;
+  }
+}
+
+// iphone 4 and 5 landscape
+@media only screen and (min-width: 480px)and (max-width: 568px) and (orientation: landscape) {
+  .FooterMobBg {
+    left: 17px;
+  }
+
+  a.click-here {
+    left: 50%;
+    margin-left: -104px;
+  }
+
+  footer .socials ul li.g-icon {
+    margin: 0;
+  }
+
+  footer {
+    margin-bottom: 20px;
+  }
+}
+
+// iphone 4 landscape
+@media only screen and (min-width: 479px)and (max-width: 480px) and (orientation: landscape) {
+  a.click-here {
+    top: 125px;
+  }
+
+  footer .socials {
+    margin-top: 150px;
+  }
+  footer .socials {
+    left: 0;
+  }
+
+  footer .socials ul li i {
+    width: 54px;
+    height: 54px;
+  }
+}
+
+// iphone 4 landscape
+@media only screen and (min-width: 481px)and (max-width: 568px) and (orientation: landscape) {
+  a.click-here {
+    top: 155px;
+  }
+
+  footer .socials {
+    margin-top: 170px;
+  }
+
+  footer .socials ul li i {
+    width: 68px;
+    height: 69px;
   }
 }

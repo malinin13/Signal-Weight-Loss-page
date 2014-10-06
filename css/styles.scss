@@ -41,10 +41,13 @@ body {
   font-family: Aller!important;
 }
 
-.container {
-  width: 100%;
-  max-width: 970px;
+@media only screen and (min-width: 970px) {
+  .container {
+    width: 100%;
+    max-width: 970px;
+  }
 }
+
 
 .row {
   max-width: 1280px;
@@ -59,14 +62,19 @@ body {
   }
 }
 
-
 @media only screen and (min-width: 321px)and (max-width: 480px) {
   .row {
     max-width: 480px;
   }
 }
 
-@media only screen and (min-width: 481px)and (max-width: 990px) {
+@media only screen and (min-width: 481px)and (max-width: 568px) {
+  .row {
+    max-width: 568px;
+  }
+}
+
+@media only screen and (min-width: 569px)and (max-width: 990px) {
   .row {
     max-width: 768px;
   }
@@ -90,3 +98,5 @@ body {
 @import "checkout-page1";
 @import "checkout-page2";
 @import "checkout-page3";
+
+@import "main-page_mobile";

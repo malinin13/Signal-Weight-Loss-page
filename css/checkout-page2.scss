@@ -131,7 +131,7 @@ tbody {
   }
 }
 
-@media only screen and (min-width: 481px)and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 568px)and (max-width: 768px) and (orientation: portrait) {
   .step2 {
     padding-left: 0;
     background-image: none;
@@ -144,7 +144,8 @@ tbody {
 
 }
 
-@media only screen and (min-width: 320px)and (max-width: 480px) {
+//IPHONE 4 and 5 portrait and landscape
+@media only screen and (min-width: 320px)and (max-width: 568px) {
   .order-form .logo {
     left: 50%;
     margin-left: -73px;
@@ -181,5 +182,21 @@ tbody {
       box-sizing: border-box;
       padding: 0 15px;
     }
+  }
+}
+
+//IPHONE 4 and 5 landscape
+@media only screen and (min-width: 480px) and (max-width: 568px) and (orientation: landscape) {
+  .table {
+    margin-top: 20px;
+  }
+
+  .take-back {
+    margin-top: 25px;
+    display: block;
+  }
+
+  .order-form.second {
+    top: 660px;
   }
 }

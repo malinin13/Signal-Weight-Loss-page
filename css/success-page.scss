@@ -145,10 +145,16 @@ height: 760px;
   margin-left: 20px;
 }
 
-@media only screen and (min-width: 468px)and (max-width: 990px) {
+@media only screen and (min-width: 481px)and (max-width: 990px) {
   .success-page-text {
     width: 100%;
   }
+
+  .transformations-img {
+    width: 280px;
+    top: -5px;
+  }
+
 
   .story-author {
     width: 377px;
@@ -209,5 +215,100 @@ height: 760px;
     width: 330px;
     position: absolute;
     left: -15px;
+  }
+}
+
+@media only screen and (min-width: 320px)and (max-width: 480px) {
+  .kristin-big, .janette-big, .laurene-big {
+    display: none;
+  }
+  .success-page-header {
+    font-size: 32px;
+    padding-left: 10px;
+  }
+
+  .success-page-main {
+    padding-left: 15px;
+  }
+
+  .transformations-img {
+    top: -3px;
+    left: 120px;
+    width: 188px;
+  }
+
+  .success-page-subheader {
+    margin-top: 10px!important;
+    padding-left: 10px;
+    b {
+      display: block;
+    }
+  }
+  .success-page-subheader:after {
+    left: 25px;
+  }
+
+  .success-page-text {
+    width: 100%;
+  }
+
+  .kristin {
+    .story-author {
+      height: 150px;
+    }
+  }
+
+  .jeanette {
+    .quote-text:after {
+
+      right: 43px;
+    }
+  }
+
+  .laurene {
+    .quote-text:after {
+
+      right: 163px;
+    }
+  }
+  .story-author {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .author-name {
+    font-size: 20px;
+  }
+
+  .quote-text {
+    font-size: 15px;
+    margin-left: 16px;
+  }
+
+  .quote-img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .quote-text:before {
+    width: 20px;
+    height: 17px;
+    left: -22px;
+    top: 2px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .quote-text:after {
+    width: 20px;
+    height: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -3px;
+  }
+
+  body .laurine, body .jeanette {
+    margin-top: 0!important;
   }
 }

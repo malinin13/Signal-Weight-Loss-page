@@ -187,7 +187,7 @@
   }
 }
 
-@media only screen and (min-width: 320px)and (max-width: 480px) {
+@media only screen and (min-width: 320px)and (max-width: 568px) {
   body {
 
     .checkout-pagi {
@@ -246,5 +246,35 @@
       background-size: contain;
       background-repeat: no-repeat;
     }
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 568px) and (orientation: landscape){
+  body .steps-list {
+    margin-top: 20px;
+  }
+
+  body .steps-list li {
+    padding: 90px 5px 0;
+    background-size: 70px;
+    font-size: 15px;
+  }
+
+  body .order-form-submit {
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+  }
+
+  body .step1-header:before{
+    top: 110px;
+  }
+
+  .copyright .copy-text {
+    display: block;
+  }
+
+  body .order-form {
+    top: 330px;
   }
 }

@@ -257,7 +257,7 @@ position: relative;
 
 }
 
-@media only screen and (min-width: 320px)and (max-width: 480px) {
+@media only screen and (min-width: 320px)and (max-width: 568px) {
   .community-heart {
     display: none;
   }
@@ -353,3 +353,39 @@ position: relative;
     padding: 0 5px;
   }
 }
+
+//IPHONE 4 and 5 landscape
+@media only screen and (min-width: 479px) and (max-width: 568px) and (orientation: landscape) {
+  .row.community-features {
+    margin-left: 0;
+  }
+
+  .community-head-sec {
+    margin-left: 15px;
+  }
+
+  .get-skinny-header{
+    padding-left: 15px;
+  }
+
+  .get-skinny-real-food {
+    margin-left: 15px;
+  }
+
+  .get-skinny-text {
+    margin-left: 35px;
+  }
+}
+
+
+//IPHONE 5 landscape
+@media only screen and (min-width: 567px) and (max-width: 568px) and (orientation: landscape) {
+  .row.community-features {
+    padding-left: 40px;
+  }
+
+  .with-signal-list li {
+    font-size: 17px;
+  }
+}
+

@@ -95,7 +95,8 @@
   font-weight: normal;
 }
 
-@media only screen and (min-width: 481px)and (max-width: 990px) {
+//IPAD LANDSCAPE AND PORTRAIT
+@media only screen and (min-width: 569px)and (max-width: 990px) {
   .step3-welcomeImg {
     width: 175px;
   }
@@ -150,7 +151,8 @@
   }
 }
 
-@media only screen and (min-width: 320px)and (max-width: 480px) {
+//IPHONE 4 and 5 landscape and portrait
+@media only screen and (min-width: 320px)and (max-width: 568px) {
 
   .step3 {
     padding: 11px 0 0;
@@ -165,8 +167,10 @@
   }
 
   .step3-ebook {
-    margin-left: 15px;
-    margin-top: 90px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 90px;
   }
 
   .step3-header {
@@ -243,5 +247,66 @@
         }
       }
     }
+  }
+}
+
+//IPHONE 4 and 5 landscape
+@media only screen and (min-width: 480px) and (max-width: 568px) and (orientation: landscape) {
+  .step3 {
+    height: 1310px;
+  }
+
+  .step3-ebook {
+    top: 145px;
+  }
+
+  .step3-clickHere {
+    top: 150px;
+  }
+
+  .community-feature-header {
+    width: 100%;
+  }
+
+  .step3-welcomeBox .community-features .community-feature-button{
+    top: 20px;
+  }
+
+  .step3-welcomeBox .community-features .community-feature-button.meal {
+    margin-left: 30px;
+    margin-top: 12px;
+    display: block;
+  }
+}
+
+//IPHONE 5 landscape
+@media only screen and (min-width: 567px) and (max-width: 568px) and (orientation: landscape) {
+  .step3-welcomeBox .community-features .community-feature-button {
+    display: block;
+    top: 20px;
+    margin: 0 55px;
+    text-align: center;
+
+    &.meal {
+      display: block;
+      top: 20px;
+      margin: 0 55px;
+      text-align: center;
+    }
+  }
+
+  .step3-welcomeBox .community-features img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+  }
+
+  .step3-welcomeBox .community-features .community-feature:nth-child(4) {
+    margin-top: 50px;
+  }
+
+  .step3 {
+    height: 1660px;
   }
 }

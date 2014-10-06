@@ -25,10 +25,10 @@
 body {
   font-family: Aller !important; }
 
-.container {
-  width: 100%;
-  max-width: 970px; }
-
+@media only screen and (min-width: 970px) {
+  .container {
+    width: 100%;
+    max-width: 970px; } }
 .row {
   max-width: 1280px; }
 
@@ -41,7 +41,10 @@ body {
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .row {
     max-width: 480px; } }
-@media only screen and (min-width: 481px) and (max-width: 990px) {
+@media only screen and (min-width: 481px) and (max-width: 568px) {
+  .row {
+    max-width: 568px; } }
+@media only screen and (min-width: 569px) and (max-width: 990px) {
   .row {
     max-width: 768px; } }
 /*******************************\
@@ -125,23 +128,26 @@ a.dropdown-toggle:hover, a.dropdown-toggle.hovered {
     margin-left: 10%;
     background-color: #5c6f7c; }
 
-@media only screen and (min-width: 468px) and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
   body .navbar-brand {
     width: 120px; }
   body .navbar-logo {
     width: 120px;
     height: 40px;
     top: -5px; } }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 568px) {
   body header + hr {
-    width: 320px;
-    margin-left: -20px; }
+    width: 100%;
+    margin-left: -5px; }
   body .navbar {
     min-height: 67px; } }
 /*******************************\
         #HEADER MOBILE
 \*******************************/
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 480px) and (max-width: 568px) {
+  .row.header-row {
+    margin-left: 0; } }
+@media only screen and (max-width: 568px) {
   .blue-text {
     color: #2da5da; }
     .blue-text b {
@@ -193,7 +199,7 @@ a.dropdown-toggle:hover, a.dropdown-toggle.hovered {
   .dropdown-menu {
     background-color: #2da5da !important; }
 
-  .first-section, .features, .navigtion-tabs, .nav-tabs, .tab-content, footer {
+  .first-section, .features, .navigtion-tabs, .nav-tabs, .tab-content {
     display: none; }
 
   .container-fluid {
@@ -947,7 +953,7 @@ a.click-here {
   .footer-row .col-md-12 {
     padding: 0; }
 
-@media only screen and (min-width: 481px) and (max-width: 990px) {
+@media only screen and (min-width: 568px) and (max-width: 990px) {
   .footer-row {
     width: 768px;
     margin-left: -17px !important; } }
@@ -1059,7 +1065,7 @@ footer {
     right: 78px;
     top: 49px; }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 568px) and (max-width: 768px) and (orientation: portrait) {
   .copyright .assure {
     position: absolute;
     right: 25px;
@@ -1087,7 +1093,7 @@ footer {
   footer .try-it-free {
     right: 35px;
     width: 280px; } }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 568px) {
   footer {
     background-image: none; }
 
@@ -1120,7 +1126,7 @@ footer {
     left: 60px; }
 
   .footer-hr {
-    width: 320px;
+    width: 100%;
     margin-left: -7px; }
 
   .copyright {
@@ -1148,6 +1154,42 @@ footer {
     top: 181px;
     left: 50%;
     margin-left: -50px; } }
+@media only screen and (min-width: 480px) and (max-width: 568px) and (orientation: landscape) {
+  .FooterMobBg {
+    left: 17px; }
+
+  a.click-here {
+    left: 50%;
+    margin-left: -104px; }
+
+  footer .socials ul li.g-icon {
+    margin: 0; }
+
+  footer {
+    margin-bottom: 20px; } }
+@media only screen and (min-width: 479px) and (max-width: 480px) and (orientation: landscape) {
+  a.click-here {
+    top: 125px; }
+
+  footer .socials {
+    margin-top: 150px; }
+
+  footer .socials {
+    left: 0; }
+
+  footer .socials ul li i {
+    width: 54px;
+    height: 54px; } }
+@media only screen and (min-width: 481px) and (max-width: 568px) and (orientation: landscape) {
+  a.click-here {
+    top: 155px; }
+
+  footer .socials {
+    margin-top: 170px; }
+
+  footer .socials ul li i {
+    width: 68px;
+    height: 69px; } }
 /*******************************\
         #INGRIDIENTS PAGE
 \*******************************/
@@ -1591,7 +1633,7 @@ body .navbar-nav > .open > a {
 
   .get-skinny-text {
     text-align: center; } }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 568px) {
   .community-heart {
     display: none; }
 
@@ -1666,6 +1708,27 @@ body .navbar-nav > .open > a {
 
   .get-skinny-text {
     padding: 0 5px; } }
+@media only screen and (min-width: 479px) and (max-width: 568px) and (orientation: landscape) {
+  .row.community-features {
+    margin-left: 0; }
+
+  .community-head-sec {
+    margin-left: 15px; }
+
+  .get-skinny-header {
+    padding-left: 15px; }
+
+  .get-skinny-real-food {
+    margin-left: 15px; }
+
+  .get-skinny-text {
+    margin-left: 35px; } }
+@media only screen and (min-width: 567px) and (max-width: 568px) and (orientation: landscape) {
+  .row.community-features {
+    padding-left: 40px; }
+
+  .with-signal-list li {
+    font-size: 17px; } }
 /******************************\
         #FOUNDER PAGE
 \******************************/
@@ -1774,7 +1837,7 @@ body .navbar-nav > .open > a {
     top: 13px;
     background-color: #fff; }
 
-@media only screen and (min-width: 468px) and (max-width: 990px) {
+@media only screen and (min-width: 481px) and (max-width: 990px) {
   .founder-photo {
     margin-left: -40px; }
 
@@ -1806,6 +1869,56 @@ body .navbar-nav > .open > a {
       left: -40px; }
     .join-now-header:after {
       right: -40px; } }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .founder-photo {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 70px; }
+
+  .founder-header {
+    position: absolute;
+    top: -435px; }
+
+  .janette-quote {
+    width: 280px;
+    padding: 25px 10px;
+    left: -5px; }
+
+  .janette-quote-author {
+    margin-right: 0;
+    margin-top: -30px; }
+
+  .janette-quote-text:before {
+    width: 20px;
+    height: 17px;
+    left: -8px;
+    top: -7px;
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+  .janette-quote-text:after {
+    width: 20px;
+    height: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 27px; }
+
+  .founder-janette-pic {
+    margin-top: 10px;
+    width: 100%;
+    float: right; }
+
+  .join-now {
+    background-image: url("../images/founder-page/join-today-box-mobile.png");
+    padding: 30px 20px;
+    height: 510px;
+    background-size: cover;
+    min-width: 320px;
+    margin-left: -6px; }
+
+  .join-now-header:after, .join-now-header:before {
+    width: 0;
+    height: 0; } }
 /*******************************\
         #FAQ PAGE
 \*******************************/
@@ -2209,9 +2322,13 @@ textarea {
 .laurene-big {
   margin-left: 20px; }
 
-@media only screen and (min-width: 468px) and (max-width: 990px) {
+@media only screen and (min-width: 481px) and (max-width: 990px) {
   .success-page-text {
     width: 100%; }
+
+  .transformations-img {
+    width: 280px;
+    top: -5px; }
 
   .story-author {
     width: 377px;
@@ -2260,6 +2377,76 @@ textarea {
     width: 330px;
     position: absolute;
     left: -15px; } }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .kristin-big, .janette-big, .laurene-big {
+    display: none; }
+
+  .success-page-header {
+    font-size: 32px;
+    padding-left: 10px; }
+
+  .success-page-main {
+    padding-left: 15px; }
+
+  .transformations-img {
+    top: -3px;
+    left: 120px;
+    width: 188px; }
+
+  .success-page-subheader {
+    margin-top: 10px !important;
+    padding-left: 10px; }
+    .success-page-subheader b {
+      display: block; }
+
+  .success-page-subheader:after {
+    left: 25px; }
+
+  .success-page-text {
+    width: 100%; }
+
+  .kristin .story-author {
+    height: 150px; }
+
+  .jeanette .quote-text:after {
+    right: 43px; }
+
+  .laurene .quote-text:after {
+    right: 163px; }
+
+  .story-author {
+    width: 100%;
+    padding: 20px 10px; }
+
+  .author-name {
+    font-size: 20px; }
+
+  .quote-text {
+    font-size: 15px;
+    margin-left: 16px; }
+
+  .quote-img {
+    width: 100%;
+    height: auto;
+    margin-left: 0; }
+
+  .quote-text:before {
+    width: 20px;
+    height: 17px;
+    left: -22px;
+    top: 2px;
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+  .quote-text:after {
+    width: 20px;
+    height: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -3px; }
+
+  body .laurine, body .jeanette {
+    margin-top: 0 !important; } }
 /*******************************\
         #SIGNUP PAGE
 \*******************************/
@@ -2287,6 +2474,23 @@ textarea {
   background-image: url("../images/check.png");
   margin: 10px 0 40px 50px; }
 
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .contact-method {
+    margin-top: 40px; }
+
+  .signup-content .contact-method.email input {
+    width: 100%; }
+
+  .contact-method .email-form-submit {
+    position: relative;
+    left: 50%;
+    margin-left: -80px; }
+
+  .signup-content {
+    padding-left: 9px; }
+
+  .signup-header {
+    font-size: 30px; } }
 /*********CHECKOUT PAGINATION ********/
 .checkout-pagi {
   padding: 0;
@@ -2439,7 +2643,7 @@ textarea {
 
   .step1-header {
     font-size: 36px; } }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 568px) {
   body .checkout-pagi {
     right: 12px;
     top: 20px; }
@@ -2477,6 +2681,28 @@ textarea {
     margin: 10px 0 0 9px;
     background-size: contain;
     background-repeat: no-repeat; } }
+@media only screen and (min-width: 480px) and (max-width: 568px) and (orientation: landscape) {
+  body .steps-list {
+    margin-top: 20px; }
+
+  body .steps-list li {
+    padding: 90px 5px 0;
+    background-size: 70px;
+    font-size: 15px; }
+
+  body .order-form-submit {
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px; }
+
+  body .step1-header:before {
+    top: 110px; }
+
+  .copyright .copy-text {
+    display: block; }
+
+  body .order-form {
+    top: 330px; } }
 .step2 {
   position: relative;
   background-image: url("../images/checkout/step2/pills.png");
@@ -2578,7 +2804,7 @@ tbody {
 .order-input-form .small {
   padding: 0 20px; }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 568px) and (max-width: 768px) and (orientation: portrait) {
   .step2 {
     padding-left: 0;
     background-image: none;
@@ -2586,7 +2812,7 @@ tbody {
 
   .order-form.second {
     right: 0; } }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 568px) {
   .order-form .logo {
     left: 50%;
     margin-left: -73px; }
@@ -2615,6 +2841,16 @@ tbody {
   .row.small {
     box-sizing: border-box;
     padding: 0 15px; } }
+@media only screen and (min-width: 480px) and (max-width: 568px) and (orientation: landscape) {
+  .table {
+    margin-top: 20px; }
+
+  .take-back {
+    margin-top: 25px;
+    display: block; }
+
+  .order-form.second {
+    top: 660px; } }
 .step3 {
   position: relative;
   height: 1300px;
@@ -2691,7 +2927,7 @@ tbody {
 .username {
   font-weight: normal; }
 
-@media only screen and (min-width: 481px) and (max-width: 990px) {
+@media only screen and (min-width: 569px) and (max-width: 990px) {
   .step3-welcomeImg {
     width: 175px; }
 
@@ -2733,7 +2969,7 @@ tbody {
 
   .step3-clickHere {
     left: 57px; } }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 568px) {
   .step3 {
     padding: 11px 0 0; }
 
@@ -2744,8 +2980,10 @@ tbody {
     margin-top: -580px; }
 
   .step3-ebook {
-    margin-left: 15px;
-    margin-top: 90px; }
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 90px; }
 
   .step3-header {
     font-size: 20px;
@@ -2795,3 +3033,288 @@ tbody {
         top: 10px; }
         .step3-welcomeBox .community-features .community-feature-button.meal {
           margin-left: -16px; } }
+@media only screen and (min-width: 480px) and (max-width: 568px) and (orientation: landscape) {
+  .step3 {
+    height: 1310px; }
+
+  .step3-ebook {
+    top: 145px; }
+
+  .step3-clickHere {
+    top: 150px; }
+
+  .community-feature-header {
+    width: 100%; }
+
+  .step3-welcomeBox .community-features .community-feature-button {
+    top: 20px; }
+
+  .step3-welcomeBox .community-features .community-feature-button.meal {
+    margin-left: 30px;
+    margin-top: 12px;
+    display: block; } }
+@media only screen and (min-width: 567px) and (max-width: 568px) and (orientation: landscape) {
+  .step3-welcomeBox .community-features .community-feature-button {
+    display: block;
+    top: 20px;
+    margin: 0 55px;
+    text-align: center; }
+    .step3-welcomeBox .community-features .community-feature-button.meal {
+      display: block;
+      top: 20px;
+      margin: 0 55px;
+      text-align: center; }
+
+  .step3-welcomeBox .community-features img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 10px; }
+
+  .step3-welcomeBox .community-features .community-feature:nth-child(4) {
+    margin-top: 50px; }
+
+  .step3 {
+    height: 1660px; } }
+/*******************************\
+        #MAIN PAGE_mobile
+\*******************************/
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  body {
+    /*******************************\
+            #HEADER MOBILE
+    \*******************************/
+    /*************SECOND PANEL********************/
+    /*******************THIRD SECTION************/ } }
+  @media only screen and (min-width: 320px) and (max-width: 568px) and (min-width: 480px) and (max-width: 568px) {
+    body .row.header-row {
+      margin-left: 0; } }
+  @media only screen and (min-width: 320px) and (max-width: 568px) and (max-width: 568px) {
+    body .blue-text {
+      color: #2da5da; }
+      body .blue-text b {
+        color: #8b8b8b; }
+    body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .h4 {
+      margin: 0 !important; }
+    body .mobile {
+      display: block; }
+    body header .navbar-default .navbar-toggle {
+      position: relative;
+      padding: 7px 7px;
+      margin-top: 13px;
+      margin-right: 0;
+      margin-left: 9px;
+      margin-bottom: 8px;
+      background-color: #2da5da;
+      background-image: none;
+      border: 1px solid;
+      border-color: #5ebae2;
+      border-radius: 0; }
+      body header .navbar-default .navbar-toggle .icon-bar {
+        display: block;
+        width: 23px;
+        height: 5px;
+        background-color: #fff; }
+    body header .navbar-logo {
+      top: 0;
+      left: 0;
+      width: 108px;
+      height: 36px; }
+    body .navbar-collapse {
+      background-color: #2da5da; }
+    body .navbar-nav {
+      margin: 0; }
+    body .nav .dropdown.open a.dropdown-toggle {
+      background-color: #fff; }
+    body .nav .dropdown li a {
+      color: white !important; }
+    body .navbar-default .navbar-nav > li > a {
+      color: #fff; }
+    body .dropdown-menu {
+      background-color: #2da5da !important; }
+    body .first-section, body .features, body .navigtion-tabs, body .nav-tabs, body .tab-content {
+      display: none; }
+    body .container-fluid {
+      padding: 0; } }
+@media screen and (min-width: 320px) and (max-width: 568px) {
+    body .banner {
+      position: relative;
+      margin-bottom: 3px; }
+      body .banner img {
+        width: 100%;
+        margin-top: -30px; }
+      body .banner .try-it {
+        position: absolute;
+        width: 140px;
+        left: 133px;
+        bottom: 18px; }
+      body .banner .guarantee {
+        position: absolute;
+        font-family: 'Myriad Pro';
+        color: #ffffff;
+        font-size: 9px;
+        text-shadow: 1px 2px 3px rgba(35, 33, 33, 0.44);
+        bottom: -8px;
+        left: 133px; }
+    body .panel {
+      border-right: none;
+      border-left: none;
+      border-bottom: none;
+      /**********************FIRST PANEl***************/ }
+      body .panel .panel-heading {
+        padding: 15px;
+        background-color: #2da5da;
+        border: 1px solid #5ebae2;
+        border-radius: 0;
+        color: #FFF; }
+        body .panel .panel-heading i {
+          margin-right: 22px; }
+      body .panel .panel-body {
+        padding-left: 0;
+        padding-right: 0; }
+      body .panel .col-xs-12 {
+        padding: 10px 0 10px;
+        border-top: 1px solid #dcdcdc; }
+        body .panel .col-xs-12 .col-xs-7 {
+          padding: 12px 0 0;
+          position: absolute;
+          left: 125px;
+          top: 0; }
+        body .panel .col-xs-12 img {
+          width: 100px;
+          margin-left: 10px; }
+    body .overeating {
+      background-color: #fdf0dd;
+      margin-top: 20px; }
+      body .overeating h4 {
+        color: #fa9a04; }
+    body .hunger {
+      background-color: #e0f4ff; }
+      body .hunger h4 {
+        color: #05a9f2; }
+    body .learning {
+      background-color: #e3f7d2; }
+      body .learning h4 {
+        color: #7c7c7c; }
+    body .losing {
+      background-color: #faccfe;
+      border-bottom: 1px solid #dcdcdc; }
+      body .losing h4 {
+        color: #e700fc; }
+    body .stop {
+      color: #f40733;
+      text-decoration: underline; }
+    body .start {
+      color: #70c008;
+      text-decoration: underline; }
+    body .loseIt {
+      width: 300px;
+      height: 120px;
+      position: relative;
+      left: 10px;
+      top: 10px;
+      margin-bottom: 20px; }
+    body .try-it-section {
+      width: 100%;
+      height: 70px;
+      background: url("../images/mobile/arrow-try-it.png") no-repeat;
+      background-size: 100%;
+      background-position: 20px 0;
+      position: relative; }
+      body .try-it-section h4 {
+        color: #fff;
+        position: absolute;
+        left: 42px;
+        top: 12px; }
+      body .try-it-section .try-it {
+        width: 140px;
+        left: 165px;
+        top: 15px;
+        position: absolute; }
+    body .whatsIn img {
+      width: 100%; }
+      body .whatsIn img.ingridients-3 {
+        width: 95%;
+        margin-left: 15px; }
+      body .whatsIn img.no-img {
+        width: 90%;
+        margin: 10px 0 0 15px; }
+    body .whatsIn .stop-waiting {
+      margin-top: 50px;
+      height: 30px; }
+      body .whatsIn .stop-waiting .try-it {
+        top: -5px; }
+    body .story-photos {
+      z-index: 2;
+      position: relative; }
+      body .story-photos img {
+        width: 100%; }
+    body .story-text {
+      background-color: #025a85;
+      color: #fff;
+      font-style: italic;
+      padding: 60px 40px 40px;
+      position: relative;
+      top: -55px;
+      z-index: 0;
+      box-sizing: border-box; }
+      body .story-text .name {
+        margin-top: 15px;
+        font-style: normal;
+        font-size: 12px; }
+    body .laurine, body .jeanette {
+      margin-top: -45px; }
+    body .stop-waiting {
+      position: relative;
+      width: 100%;
+      height: 120px;
+      margin-top: -30px; }
+      body .stop-waiting .stop-text {
+        margin-bottom: 30px; }
+      body .stop-waiting .try-it {
+        position: absolute;
+        left: 90px;
+        top: 80px;
+        width: 140px; }
+
+  /*****BODY****/ }
+/******MEDIA 320px*******/
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .h4 {
+    margin: 0 !important; }
+  body .banner .try-it {
+    bottom: 30px;
+    left: 250px;
+    width: 180px; }
+  body .banner .guarantee {
+    bottom: -2px;
+    left: 250px;
+    font-size: 11px; }
+  body .panel .col-xs-12 .col-xs-7 {
+    top: 20px; }
+  body .loseIt {
+    width: 350px;
+    margin-left: 60px; }
+  body .how-it-works .try-it-section h4 {
+    left: 70px;
+    font-size: 24px; }
+  body .how-it-works .try-it-section .try-it {
+    top: 18px;
+    left: 265px;
+    width: 170px; }
+  body .whatsIn .stop-waiting .try-it {
+    left: 150px;
+    width: 180px; }
+  body .stop-waiting {
+    height: 160px; }
+    body .stop-waiting .try-it {
+      top: 110px;
+      left: 150px;
+      width: 180px; } }
+@media screen and (min-width: 567px) and (max-width: 568px) {
+  body .stop-waiting .try-it {
+    top: 124px;
+    left: 205px; }
+
+  body .stop-waiting .stop-text {
+    margin: 0 auto; } }

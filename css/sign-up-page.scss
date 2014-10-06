@@ -35,3 +35,27 @@
     margin:10px 0 40px 50px;
   }
 }
+
+@media only screen and (min-width: 320px)and (max-width: 480px) {
+  .contact-method {
+    margin-top: 40px;
+  }
+
+  .signup-content .contact-method.email input {
+    width: 100%;
+  }
+
+  .contact-method .email-form-submit {
+    position: relative;
+    left: 50%;
+    margin-left: -80px;
+  }
+
+  .signup-content {
+    padding-left: 9px;
+  }
+
+  .signup-header {
+    font-size: 30px;
+  }
+}

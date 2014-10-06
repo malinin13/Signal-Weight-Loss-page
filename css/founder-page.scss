@@ -125,7 +125,7 @@
   }
 }
 
-@media only screen and (min-width: 468px)and (max-width: 990px) {
+@media only screen and (min-width: 481px)and (max-width: 990px) {
   .founder-photo {
     margin-left: -40px;
   }
@@ -163,5 +163,64 @@
     &:after {
       right: -40px;
     }
+  }
+}
+
+@media only screen and (min-width: 320px)and (max-width: 480px) {
+  .founder-photo {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 70px;
+  }
+
+  .founder-header {
+    position: absolute;
+    top: -435px;
+  }
+  .janette-quote {
+    width: 280px;
+    padding: 25px 10px;
+    left: -5px;
+  }
+
+  .janette-quote-author {
+    margin-right: 0;
+    margin-top: -30px;
+  }
+
+  .janette-quote-text:before {
+    width: 20px;
+    height: 17px;
+    left: -8px;
+    top: -7px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .janette-quote-text:after {
+    width: 20px;
+    height: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 27px;
+  }
+
+  .founder-janette-pic {
+    margin-top: 10px;
+    width: 100%;
+    float: right;
+  }
+  .join-now {
+    background-image: url("../images/founder-page/join-today-box-mobile.png");
+    padding: 30px 20px;
+    height: 510px;
+    background-size: cover;
+    min-width: 320px;
+    margin-left: -6px;
+  }
+
+  .join-now-header:after, .join-now-header:before {
+    width: 0;
+    height: 0;
   }
 }
