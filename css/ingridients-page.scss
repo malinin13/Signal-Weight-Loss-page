@@ -161,7 +161,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 468px)and (max-width: 990px) {
+@media only screen and (min-width: 481px)and (max-width: 990px) {
   .ingridients-content .pills .components {
     left: -10px;
     width: 720px;
@@ -223,5 +223,80 @@ body {
   }
   .ingridients-content .second-tab .no .text {
     left: 150px;
+  }
+}
+
+@media only screen and (min-width: 320px)and (max-width: 480px) {
+  .ingridients-content .pills .pills-bg {
+    position: absolute;
+    top: 17px;
+    left: 5px;
+    width: 100%;
+    height: 225px;
+  }
+
+  .ingridients-content .pills {
+    height: 800px;
+  }
+
+  img.components-mobile {
+    width: 100%;
+    height: 527px;
+    top: 250px;
+    left: 5px;
+  }
+
+  .ingridients-content .second-tab {
+    width: 100%;
+    min-width: 320px;
+    margin-left: -14px;
+    background-image: url("../images/ingridients-page/tabbgmobile.png");
+    padding-top: 50px;
+    background-size: 100% 215px;
+  }
+
+  .second-tab .second-tab-header {
+    width: 100%;
+  }
+
+  .second-tab .ingridients {
+    height: 480px;
+  }
+
+  .second-tab .superfoods {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 260px;
+  }
+
+  .second-tab .img-table {
+    width: 100%;
+    left: 0;
+    top: 430px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .second-tab .no {
+    width: 100%;
+    left: 0;
+
+    .no-img {
+      left: 0;
+    }
+  }
+
+  .second-tab .no .text {
+    width: 180px;
+    left: 120px;
+    top: 15px;
+  }
+
+  .ingridient a {
+    display: block;
+    max-width: 320px;
+    word-wrap: break-word;
   }
 }

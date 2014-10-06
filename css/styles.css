@@ -132,7 +132,7 @@ a.dropdown-toggle:hover, a.dropdown-toggle.hovered {
     width: 120px;
     height: 40px;
     top: -5px; } }
-@media only screen and (min-width: 320px) and (max-width: 468px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   body header + hr {
     width: 320px;
     margin-left: -20px; }
@@ -1266,7 +1266,7 @@ body .popover-title {
 body .navbar-nav > .open > a {
   background-color: transparent !important; }
 
-@media only screen and (min-width: 468px) and (max-width: 990px) {
+@media only screen and (min-width: 481px) and (max-width: 990px) {
   .ingridients-content .pills .components {
     left: -10px;
     width: 720px;
@@ -1326,6 +1326,65 @@ body .navbar-nav > .open > a {
 
   .ingridients-content .second-tab .no .text {
     left: 150px; } }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .ingridients-content .pills .pills-bg {
+    position: absolute;
+    top: 17px;
+    left: 5px;
+    width: 100%;
+    height: 225px; }
+
+  .ingridients-content .pills {
+    height: 800px; }
+
+  img.components-mobile {
+    width: 100%;
+    height: 527px;
+    top: 250px;
+    left: 5px; }
+
+  .ingridients-content .second-tab {
+    width: 100%;
+    min-width: 320px;
+    margin-left: -14px;
+    background-image: url("../images/ingridients-page/tabbgmobile.png");
+    padding-top: 50px;
+    background-size: 100% 215px; }
+
+  .second-tab .second-tab-header {
+    width: 100%; }
+
+  .second-tab .ingridients {
+    height: 480px; }
+
+  .second-tab .superfoods {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 260px; }
+
+  .second-tab .img-table {
+    width: 100%;
+    left: 0;
+    top: 430px; }
+    .second-tab .img-table img {
+      width: 100%; }
+
+  .second-tab .no {
+    width: 100%;
+    left: 0; }
+    .second-tab .no .no-img {
+      left: 0; }
+
+  .second-tab .no .text {
+    width: 180px;
+    left: 120px;
+    top: 15px; }
+
+  .ingridient a {
+    display: block;
+    max-width: 320px;
+    word-wrap: break-word; } }
 /*******************************\
         #COMMUNITY PAGE
 \*******************************/
@@ -1975,7 +2034,7 @@ textarea {
     .how-steps-descr li:nth-child(4) {
       top: -20px; }
 
-@media only screen and (min-width: 468px) and (max-width: 990px) {
+@media only screen and (min-width: 481px) and (max-width: 990px) {
   .how-steps-img {
     width: 490px; }
 
@@ -2005,6 +2064,37 @@ textarea {
       position: absolute;
       left: 0;
       top: 50px; } }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .how-content .tab-content {
+    display: block; }
+
+  .how-steps-descr li {
+    width: 100px;
+    vertical-align: top;
+    padding: 0; }
+
+  .mobileImg {
+    width: 100%; }
+
+  .how-content .tab-content .first-tab h2 {
+    text-align: center; }
+
+  .how-content .tab-content .first-tab .overeating {
+    margin-top: 20px; }
+
+  .how-content .first-tab {
+    margin-left: 50px; }
+  .how-content .first-tab div p {
+    margin-top: 5px;
+    font-size: 16px; }
+  .how-content .first-tab .overeating h4 {
+    margin-top: 15px !important; }
+  .how-content .first-tab .learning p {
+    width: 100%; }
+  .how-content .hunger {
+    height: 300px; }
+  .how-content .how-header {
+    font-size: 24px; } }
 /*******************************\
         #SUCCESS PAGE
 \*******************************/
